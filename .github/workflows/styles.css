@@ -81,7 +81,7 @@ ul li {
 /* Home-page Starts here */
 .hero-section {
   width: 375px;
-  height: auto;
+  height: 718px;
   background-image: url(./images/mobile-bkg.png);
   background-repeat: no-repeat;
 }
