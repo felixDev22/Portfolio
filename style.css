@@ -89,6 +89,7 @@ ul li {
   color: var(--logo-color);
   cursor: pointer;
 }
+
 .logo:hover {
   color: var(--hover-color);
 }

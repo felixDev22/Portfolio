@@ -17,7 +17,7 @@ All you need VScompiler or a compiler of your choice.
 
 ### Setup
 
-You will need to clone used (git clone url repo) and open the html with live server.
+You will need to clone use git clone command (git clone url repo) and open the html with live server to view.
 
 ## Authors
 
