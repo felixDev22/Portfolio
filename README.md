@@ -17,19 +17,19 @@ All you need VScompiler or a compiler of your choice.
 
 ### Setup
 
-You will need to clone the repo and open the html with live server.
+You will need to clone used (git clone url repo) and open the html with live server.
 
 ## Authors
 
 👤 **Author1**
 
-- GitHub: [@githubhandle](felixDev22)
+- GitHub: [@githubhandle](https://github.com/felixDev22)
 
 ## 🤝 Contributing
 
 Contributions, issues, and feature requests are welcome!
 
-Feel free to check the [issues page](https://github.com).
+Feel free to check the [issues page](https://github.com/felixDev22/Mobile-first-D3/issues).
 
 ## Show your support
 
