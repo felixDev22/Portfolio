@@ -27,7 +27,7 @@ h1 {
   font-size: 40px;
   font-weight: 700;
   line-height: 52px;
-  color: var(--header-blue);
+  color: var(--header-color);
 }
 h3 {
   font-size: 24px;
@@ -45,6 +45,16 @@ p {
   line-height: 24px;
   color: var(--text-color);
 }
+a {
+  font-size: 18px;
+  font-weight: 500;
+  line-height: 24px;
+  color: var(--light-blue);
+  text-decoration: none;
+}
+ul li {
+  list-style: none;
+}
 /* Global settings End here */
 
 /* Header-section starts here */
@@ -53,12 +63,6 @@ p {
   display: flex;
   align-items: center;
   justify-content: space-between;
-}
-.hero-section {
-  width: 375px;
-  height: auto;
-  background-image: url(./images/mobile-bkg.png);
-  background-repeat: no-repeat;
 }
 .navbar {
   display: flex;
@@ -72,10 +76,24 @@ p {
 .menu-bar {
   float: right;
 }
-/* Header-section starts here */
+/* Header-section Ends here */
+
+/* Home-page Starts here */
+.hero-section {
+  width: 375px;
+  height: auto;
+  background-image: url(./images/mobile-bkg.png);
+  background-repeat: no-repeat;
+}
 .home-title {
   margin-top: 60px;
 }
 .home-title p {
   margin-top: 1rem;
+  margin-bottom: 1rem;
+}
+.social-icons {
+  display: flex;
+  margin-top: 1rem;
+  gap: 20px;
 }
