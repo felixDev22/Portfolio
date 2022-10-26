@@ -1,4 +1,4 @@
-@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap");
 
 * {
   margin: 0;
@@ -10,6 +10,7 @@ body {
   width: 375px;
   height: auto;
   font-family: "Poppins", sans-serif;
+  background-color: var(--off-white);
 }
 
 /* Global settings start here */
@@ -19,18 +20,19 @@ body {
   --logo-color: #6070ff;
   --header-color: #172b4d;
   --text-color: #344563;
+  --off-white: #e5e5e5;
 }
 .container {
   padding: 1rem 1.5rem;
 }
 h1 {
   font-size: 40px;
-  font-weight: 700;
-  line-height: 52px;
+  font-weight: 900;
+  line-height: 49px;
   color: var(--header-color);
 }
 h3 {
-  font-size: 24px;
+  font-size: 20px;
   font-weight: 700;
   line-height: 24px;
 }
@@ -85,11 +87,13 @@ ul li {
 .hero-section {
   width: 375px;
   height: 718px;
-  background-image: url(./images/mobile-bkg.png);
+  background-image: url("/images/mobile.bkg.svg");
   background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
 }
 .home-title {
-  margin-top: 60px;
+  margin-top: 65px;
 }
 .home-title p {
   margin-top: 1rem;
