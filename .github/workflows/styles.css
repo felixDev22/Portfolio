@@ -29,8 +29,8 @@ h1 {
   line-height: 52px;
 }
 h3 {
-  font-size: 16px;
-  font-weight: 500;
+  font-size: 18px;
+  font-weight: 700;
   line-height: 24px;
 }
 h4 {
@@ -39,3 +39,24 @@ h4 {
   line-height: 16px;
 }
 /* Global settings End here */
+
+.mobile-status {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.hero-section {
+  width: 100%;
+  height: auto;
+  background-image: url(./images/header-background-mobile.png);
+  background-repeat: no-repeat;
+}
+nav {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-top: 68px;
+}
+.logo {
+  color: var(--logo-color);
+}
