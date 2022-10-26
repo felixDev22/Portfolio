@@ -51,6 +51,7 @@ a {
   line-height: 24px;
   color: var(--light-blue);
   text-decoration: none;
+  cursor: pointer;
 }
 ul li {
   list-style: none;
@@ -72,9 +73,11 @@ ul li {
 }
 .logo {
   color: var(--logo-color);
+  cursor: pointer;
 }
 .menu-bar {
   float: right;
+  cursor: pointer;
 }
 /* Header-section Ends here */
 
@@ -96,4 +99,6 @@ ul li {
   display: flex;
   margin-top: 1rem;
   gap: 20px;
+  cursor: pointer;
 }
+/* Home-page Ends here */
