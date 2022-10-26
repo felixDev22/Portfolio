@@ -30,7 +30,7 @@ h1 {
   color: var(--header-blue);
 }
 h3 {
-  font-size: 18px;
+  font-size: 24px;
   font-weight: 700;
   line-height: 24px;
 }
@@ -55,21 +55,27 @@ p {
   justify-content: space-between;
 }
 .hero-section {
-  width: 100%;
+  width: 375px;
   height: auto;
-  background-image: url(./images/header-background-mobile.png);
+  background-image: url(./images/mobile-bkg.png);
   background-repeat: no-repeat;
 }
-nav {
+.navbar {
   display: flex;
   align-items: center;
   justify-content: space-between;
-  margin-top: 48px;
+  margin-top: 28px;
 }
 .logo {
   color: var(--logo-color);
 }
 .menu-bar {
-  width: 100%;
+  float: right;
 }
 /* Header-section starts here */
+.home-title {
+  margin-top: 60px;
+}
+.home-title p {
+  margin-top: 1rem;
+}
