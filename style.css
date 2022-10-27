@@ -27,6 +27,9 @@ body {
   --card-border: #dfe1e6;
   --work-details: #7a869a;
   --work-tools: #ebebff;
+  --l-color: #000000;
+  --box-color: #f7f7f9;
+  --portfolio-color: #f7f7f9;
 }
 
 .container {
@@ -153,7 +156,13 @@ ul li {
 }
 
 #work-section {
-  margin-top: 220px;
+  margin-top: 70px;
+  height: auto;
+  padding-top: 160px;
+  padding-bottom: 160px;
+  background: var(--portfolio-color);
+  position: relative;
+  z-index: -10;
 }
 
 .card {
@@ -219,6 +228,7 @@ h1 {
 #about-section {
   width: 375px;
   height: 1263;
+  margin-top: -70px;
   background-image: url("./images/about-base.png");
   background-repeat: no-repeat;
   background-size: cover;
@@ -229,4 +239,29 @@ h1 {
 .about-title p {
   margin-top: 1rem;
   margin-bottom: 1rem;
+}
+
+.languages-section h3 {
+  color: var(--l-color);
+  margin-top: 2.5rem;
+}
+.languages-title li {
+  display: flex;
+  justify-content: space-between;
+}
+.languages-title img {
+  margin-top: 2.7rem;
+  margin-right: 2rem;
+}
+.languages-box {
+  background: var(--box-color);
+  margin-top: 2rem;
+  padding: 10px;
+}
+.languages-box li {
+  display: flex;
+  gap: 1rem;
+}
+hr {
+  margin-top: 1.5rem;
 }
