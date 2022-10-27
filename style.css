@@ -214,3 +214,19 @@ h1 {
   font-size: 16px;
   border-radius: 8px;
 }
+
+/* About-section starts here */
+#about-section {
+  width: 375px;
+  height: 1263;
+  background-image: url("./images/about-base.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.about-title h1 {
+  margin-top: 120px;
+}
+.about-title p {
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+}
