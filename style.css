@@ -1,0 +1,137 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  scroll-behavior: smooth;
+}
+
+body {
+  width: 375px;
+  height: auto;
+  font-family: "Poppins", sans-serif;
+  background-color: var(--off-white);
+}
+
+/* Global settings start here */
+
+:root {
+  --light-blue: #7f8cff;
+  --logo-color: #6070ff;
+  --header-color: #172b4d;
+  --text-color: #344563;
+  --off-white: #e5e5e5;
+  --hover-color: #6070ff;
+}
+
+.container {
+  padding: 1rem 1.5rem;
+}
+
+h1 {
+  font-size: 40px;
+  font-weight: 900;
+  line-height: 49px;
+  color: var(--header-color);
+}
+
+h3 {
+  font-size: 20px;
+  font-weight: 700;
+  line-height: 24px;
+}
+
+h4 {
+  font-size: 14px;
+  font-weight: 500;
+  line-height: 16px;
+}
+
+p {
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 24px;
+  color: var(--text-color);
+}
+
+a {
+  font-size: 18px;
+  font-weight: 500;
+  line-height: 24px;
+  color: var(--light-blue);
+  text-decoration: none;
+  cursor: pointer;
+}
+
+ul li {
+  list-style: none;
+}
+
+/* Global settings End here */
+
+/* Header-section starts here */
+
+.mobile-status {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.navbar {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-top: 18px;
+}
+
+.logo {
+  color: var(--logo-color);
+  cursor: pointer;
+}
+
+.logo:hover {
+  color: var(--hover-color);
+}
+
+.menu-bar {
+  float: right;
+  cursor: pointer;
+}
+
+/* Header-section Ends here */
+
+/* Home-page Starts here */
+.hero-section {
+  width: 375px;
+  height: 718px;
+  background-image: url("./images/header-background-mobile.svg");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+
+.background-shapes {
+  z-index: 2;
+  position: absolute;
+}
+
+.home-title {
+  margin-top: 88px;
+  position: relative;
+  z-index: 3;
+}
+
+.home-title p {
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+}
+
+.social-icons {
+  display: flex;
+  margin-top: 1rem;
+  gap: 20px;
+  cursor: pointer;
+}
+
+/* Home-page Ends here */
