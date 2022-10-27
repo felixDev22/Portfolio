@@ -158,16 +158,21 @@ ul li {
 
 .card {
   width: 327px;
-  height: 552px;
+  height: 582px;
   background: var(--card-color);
   border: 1px solid var(--card-border);
   border-radius: 16px;
   padding: 15px;
+  margin-bottom: 4rem;
 }
 .card-content {
   display: flex;
   justify-content: center;
   flex-direction: column;
+}
+.card-content h1 {
+  font-size: 28px;
+  line-height: 38px;
 }
 .card-content a {
   color: var(--work-details);
@@ -176,7 +181,7 @@ ul li {
   display: flex;
   align-items: center;
   gap: 0.5em;
-  margin-top: 1rem;
+  margin-top: 0.5rem;
 }
 .bullet-point {
   background: var(--work-details);
@@ -202,10 +207,10 @@ h1 {
 }
 .primary-btn {
   margin-top: 1rem;
-  padding: 10px 20px;
+  padding: 9px 20px;
   color: var(--logo-color);
   border: 1px solid var(--logo-color);
   background: var(--card-color);
-  font-size: 18px;
+  font-size: 16px;
   border-radius: 8px;
 }
