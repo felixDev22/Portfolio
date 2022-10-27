@@ -241,11 +241,13 @@ button {
   border-radius: 8px;
   cursor: pointer;
 }
+
 button:hover {
   background: var(--hover-color);
   color: var(--card-color);
-  box-shadow: 0px 8px 16px rgba(64, 83, 252, 0.24);
+  box-shadow: 0 8px 16px rgba(64, 83, 252, 0.24);
 }
+
 /* About-section starts here */
 #about-section {
   width: 375px;
