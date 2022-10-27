@@ -17,7 +17,11 @@ All you need VScompiler or a compiler of your choice.
 
 ### Setup
 
-You will need to clone use git clone command (git clone url repo) and open the html with live server to view.
+Clone the repo: git clone git@github.com:felixDev22/Mobile-first-D3.git
+
+Change to the feature branch: git checkout hero-section
+
+Open the index.html in your browser.
 
 ## Authors
 

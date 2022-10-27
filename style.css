@@ -105,14 +105,20 @@ ul li {
 .hero-section {
   width: 375px;
   height: 718px;
-  background-image: url("./images/mobile.bkg.svg");
+  background-image: url("./images/header-background-mobile.svg");
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
 }
+.background-shapes {
+  z-index: 2;
+  position: absolute;
+}
 
 .home-title {
   margin-top: 88px;
+  position: relative;
+  z-index: 3;
 }
 
 .home-title p {
