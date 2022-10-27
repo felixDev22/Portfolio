@@ -27,9 +27,11 @@ body {
   --card-border: #dfe1e6;
   --work-details: #7a869a;
   --work-tools: #ebebff;
-  --l-color: #000000;
+  --l-color: #000;
   --box-color: #f7f7f9;
   --portfolio-color: #f7f7f9;
+  --canopy-color: #344563;
+  --active-color: #2230d2;
 }
 
 .container {
@@ -42,11 +44,13 @@ h1 {
   line-height: 49px;
   color: var(--header-color);
 }
+
 h2 {
   font-size: 20px;
   font-weight: 700;
   line-height: 24px;
 }
+
 h3 {
   font-size: 18px;
   font-weight: 500;
@@ -167,44 +171,56 @@ ul li {
 
 .card {
   width: 327px;
-  height: 582px;
+  height: 568px;
   background: var(--card-color);
   border: 1px solid var(--card-border);
   border-radius: 16px;
   padding: 15px;
   margin-bottom: 4rem;
 }
+
 .card-content {
   display: flex;
   justify-content: center;
   flex-direction: column;
 }
+
 .card-content h1 {
   font-size: 28px;
   line-height: 38px;
+  margin-top: 0.5rem;
 }
+
+.card-content h3 {
+  color: var(--canopy-color);
+}
+
 .card-content a {
   color: var(--work-details);
 }
+
 .work-details {
   display: flex;
   align-items: center;
   gap: 0.5em;
   margin-top: 0.5rem;
 }
+
 .bullet-point {
   background: var(--work-details);
   width: 8px;
   height: 8px;
   border-radius: 50%;
 }
-.card-content p,
-h1 {
+
+.card-content p {
   margin-top: 1rem;
 }
+
 .work-tools {
-  margin-top: 1rem;
+  margin-top: 0.2rem;
 }
+
 .tools {
   color: var(--logo-color);
   background: var(--work-tools);
@@ -214,7 +230,8 @@ h1 {
   border-radius: 8px;
   font-size: 14px;
 }
-.primary-btn {
+
+button {
   margin-top: 1rem;
   padding: 9px 20px;
   color: var(--logo-color);
@@ -222,8 +239,13 @@ h1 {
   background: var(--card-color);
   font-size: 16px;
   border-radius: 8px;
+  cursor: pointer;
 }
-
+button:hover {
+  background: var(--hover-color);
+  color: var(--card-color);
+  box-shadow: 0px 8px 16px rgba(64, 83, 252, 0.24);
+}
 /* About-section starts here */
 #about-section {
   width: 375px;
@@ -233,9 +255,11 @@ h1 {
   background-repeat: no-repeat;
   background-size: cover;
 }
+
 .about-title h1 {
-  margin-top: 120px;
+  margin-top: 100px;
 }
+
 .about-title p {
   margin-top: 1rem;
   margin-bottom: 1rem;
@@ -245,26 +269,37 @@ h1 {
   color: var(--l-color);
   margin-top: 2.5rem;
 }
+
 .languages-title li {
   display: flex;
   justify-content: space-between;
 }
+
 .languages-title img {
   margin-top: 2.7rem;
   margin-right: 2rem;
 }
+
 .languages-box {
   background: var(--box-color);
   margin-top: 2rem;
   padding: 10px;
 }
+
 .languages-box li {
   display: flex;
   gap: 1rem;
 }
+
 hr {
   margin-top: 1.5rem;
 }
+
 .about-title {
   padding-bottom: 88px;
+}
+
+.active {
+  background: var(--active-color);
+  color: var(--card-color);
 }
