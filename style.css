@@ -124,17 +124,15 @@ ul li {
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
-  position: relative;
 }
 
 .background-shapes {
-  z-index: 2;
   position: absolute;
 }
 
 .home-title {
   margin-top: 88px;
-  z-index: 3;
+  z-index: 30;
 }
 
 .home-title p {
@@ -160,13 +158,11 @@ ul li {
 }
 
 #work-section {
-  margin-top: 70px;
+  margin-top: 90px;
   height: auto;
-  padding-top: 160px;
+  padding-top: 150px;
   padding-bottom: 160px;
   background: var(--portfolio-color);
-  position: relative;
-  z-index: -10;
 }
 
 .card {
@@ -231,7 +227,7 @@ ul li {
   font-size: 14px;
 }
 
-button {
+.primary-btn {
   margin-top: 1rem;
   padding: 9px 20px;
   color: var(--logo-color);
@@ -242,8 +238,8 @@ button {
   cursor: pointer;
 }
 
-button:hover {
-  background: var(--hover-color);
+.primary-btn:hover {
+  background: #6171ff !important;
   color: var(--card-color);
   box-shadow: 0 8px 16px rgba(64, 83, 252, 0.24);
 }
