@@ -281,26 +281,24 @@ button:hover {
   margin-top: 2.7rem;
   margin-right: 2rem;
 }
-
+.languages-title h3 {
+  margin-bottom: 2rem;
+}
+.bottom-line {
+  border-bottom: 1px solid var(--card-border);
+}
 .languages-box {
   background: var(--box-color);
   margin-top: 2rem;
   padding: 10px;
 }
-
 .languages-box li {
   display: flex;
   gap: 1rem;
 }
-
-hr {
-  margin-top: 1.5rem;
-}
-
 .about-title {
   padding-bottom: 88px;
 }
-
 .active {
   background: var(--active-color);
   color: var(--card-color);
