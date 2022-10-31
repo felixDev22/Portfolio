@@ -180,9 +180,9 @@ ul li {
 }
 
 .card-content {
-  /* display: flex; */
-  /* justify-content: center;
-  flex-direction: column; */
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
 }
 
 .card-content h1 {
@@ -221,14 +221,8 @@ ul li {
   margin-top: 1rem;
 }
 
-.card-content ul {
-  float: left;
-  
-}
-
-.work-tools li {
+.work-tools{
   margin-top: 0.2rem;
-  float: right;
 }
 
 .tools {
