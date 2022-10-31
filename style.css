@@ -221,8 +221,9 @@ ul li {
   margin-top: 1rem;
 }
 
-.card-content ul li {
-  float: right;
+.card-content ul {
+  float: left;
+  
 }
 
 .work-tools li {
