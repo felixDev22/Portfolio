@@ -353,7 +353,8 @@ color: var(--card-color);
 
 .form,
 .contact-form-input,
-.message {
+.message
+{
   width: 100%;
   font-size: 0.7rem;
 }
@@ -368,6 +369,7 @@ color: var(--card-color);
 
 .contact-form-input {
   padding: 0.75rem;
+  width: 300px;
 }
 
 #abt-btn {
