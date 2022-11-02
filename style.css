@@ -36,7 +36,6 @@ body {
 
 .container {
   padding: 1rem 1.5rem;
- 
 }
 
 h1 {
@@ -222,7 +221,7 @@ ul li {
   margin-top: 1rem;
 }
 
-.work-tools{
+.work-tools {
   margin-top: 0.2rem;
 }
 
@@ -271,7 +270,8 @@ button:hover {
   margin-top: 1rem;
   margin-bottom: 1rem;
 }
-.languages-section{
+
+.languages-section {
   padding-bottom: 3rem;
 }
 
@@ -322,29 +322,32 @@ button:hover {
 
 /* Contact-section starts here */
 
-#contact-section{
+#contact-section {
   background-image: url("./images/contact-bkg.png");
   background-repeat: no-repeat;
   background-size: cover;
-  height:779px;
+  height: 779px;
   margin-top: -3rem;
 }
-.contact-details{
-  display:flex;
+
+.contact-details {
+  display: flex;
   flex-direction: column;
-  align-items:center;
+  align-items: center;
   padding-top: 100px;
   text-align: center;
   margin-bottom: 24px;
 }
-.contact-details h1{
+
+.contact-details h1 {
   color: var(--card-color);
 }
-.contact-details p{
-color: var(--card-color);
- margin-top:1rem;
- line-height: 28px;
- font-size: 20px;
+
+.contact-details p {
+  color: var(--card-color);
+  margin-top: 1rem;
+  line-height: 28px;
+  font-size: 20px;
 }
 
 .contact-form {
@@ -353,8 +356,7 @@ color: var(--card-color);
 
 .form,
 .contact-form-input,
-.message
-{
+.message {
   width: 100%;
   font-size: 0.7rem;
 }
