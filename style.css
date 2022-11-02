@@ -345,5 +345,33 @@ color: var(--card-color);
  margin-top:1rem;
  line-height: 28px;
  font-size: 20px;
+}
 
+.contact-form {
+  display: flex;
+}
+
+.form,
+.contact-form-input,
+.message {
+  width: 100%;
+  font-size: 0.7rem;
+}
+
+.contact-form-input,
+.message {
+  border-radius: 0.4rem;
+  margin-top: 20px;
+  border: 1px solid #cfd8dc;
+  font-family: "Poppins", sans-serif;
+}
+
+.contact-form-input {
+  padding: 0.75rem;
+}
+
+#abt-btn {
+  display: flex;
+  cursor: pointer;
+  margin-top: 1rem;
 }
