@@ -129,6 +129,8 @@ ul li {
   background-position: center;
   background-size: cover;
   padding-bottom:150px;
+  position: relative;
+  z-index: 1000;
  
 }
 
@@ -170,8 +172,7 @@ ul li {
   padding-top: 160px;
   padding-bottom: 160px;
   background: var(--portfolio-color);
-  position: relative;
-  z-index: -10;
+ 
 }
 
 .card {
