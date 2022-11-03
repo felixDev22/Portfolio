@@ -214,7 +214,9 @@ ul li {
   gap: 0.5em;
   margin-top: 0.5rem;
 }
-
+.work-details a{
+  color: var(--work-details);
+}
 .bullet-point {
   background: var(--work-details);
   width: 8px;
@@ -390,8 +392,11 @@ color: var(--card-color);
   height: auto;
   background-color: none;
   }
+  img{
+    width: 100%;
+  }
   .container {
-  padding: 1rem 8%;
+  padding: 1rem 10%;
   }
   .menu-bar {
     display:none
@@ -409,23 +414,62 @@ color: var(--card-color);
   display:none;
   }
   .home-title h1{
-    margin-top: 10%;
-    font-size: 30px;
-    line-height: 31px
+    margin-top: 20%;
+    font-size: 38px;
+    line-height: 40px
   }
   .home-title p{
-    font-size:13px;
-    width: 80%;
+    font-size:14px;
+    width: 90%;
+    line-height: 23px;
 }
 .navbar{
-  margin-top: 0.1rem;
+  margin-top: 2rem;
 }
 .menu-list ul{
   display:flex;
-  font-size: 11px;
+  font-size: 13px;
   
 }
 .menu-list li{
   margin-left:20px;
 }
+.card{
+   min-width: 690px; 
+  height: 327px;
+  display: flex;
+  flex-direction: column;
+  
+}
+.row{
+display: flex;
+flex-direction: row;
+gap:20px;
+  
+}
+.col-1, .col-2{
+  flex-basis: 50%;
+  padding-top: 12px;
+}
+.col-1 img{
+width: 350px
+}
+.work-details a{
+  color: var(--work-details);
+
+}
+.col-2 h1{
+  font-size: 30px;
+  line-height: 
+}
+
+.col-2 p{
+  margin-top: 10px;
+
+}
+.col-2 button{
+  padding: 8px 15px;
+  margin-top: 12px;
+}
+
 }
