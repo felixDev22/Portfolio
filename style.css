@@ -114,6 +114,9 @@ ul li {
   float: right;
   cursor: pointer;
 }
+.menu-list ul{
+  display:none;
+}
 
 /* Header-section Ends here */
 
@@ -125,7 +128,8 @@ ul li {
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
-  position: relative;
+  padding-bottom:150px;
+ 
 }
 
 .background-shapes {
@@ -161,7 +165,7 @@ ul li {
 }
 
 #work-section {
-  margin-top: 70px;
+  margin-top: -70px;
   height: auto;
   padding-top: 160px;
   padding-bottom: 160px;
@@ -391,15 +395,13 @@ color: var(--card-color);
   }
   .menu-bar {
     display:none
-
   }
-
   .hero-section {
     background: url("./images/desktop-base.png");
     background-repeat: no-repeat;
     background-position: center;
     background-size:cover;
-    max-width: 768px;
+    min-width: 768px;
     height: auto;
     margin-bottom:10px;
   }
@@ -414,6 +416,16 @@ color: var(--card-color);
   .home-title p{
     font-size:13px;
     width: 80%;
-
+}
+.navbar{
+  margin-top: 0.1rem;
+}
+.menu-list ul{
+  display:flex;
+  font-size: 11px;
+  
+}
+.menu-list li{
+  margin-left:20px;
 }
 }
