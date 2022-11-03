@@ -392,9 +392,6 @@ color: var(--card-color);
   height: auto;
   background-color: none;
   }
-  img{
-    width: 100%;
-  }
   .container {
   padding: 1rem 10%;
   }
