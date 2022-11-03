@@ -383,7 +383,7 @@ color: var(--card-color);
   margin-top: 1rem;
 }
 
-
+/* ================================= media queries ================================= */
 /* Desktop version */
 
 @media (min-width: 768px) {
@@ -474,6 +474,7 @@ width: 350px
 /* About section starts here*/
 
 #about-section {
+  background-image: url("./images/dsk-about.png");
   width: 100%;
   margin-top: -150px;
   padding-bottom: 170px;
@@ -509,7 +510,8 @@ gap:30px;
 #contact-section{
    background-image: url("./images/desktop-contact.png");
   margin-top: -8rem;
-  height:auto;
+  width: 100%;
+  height:690px;
 
 }
 .contact-details h1{
@@ -524,5 +526,37 @@ gap:30px;
 .contact-form-input,
 .message {
   width: 500px;
+}
+.contact-details .primary-btn {
+margin-left: 35%;}
+}
+
+
+@media (min-width: 1200px) {
+
+  .logo h2{
+    font-size: 24px;
+  }
+
+.home-title h1{
+  font-size: 48px;
+  line-height: 60px;
+}
+.home-title p{
+  font-size: 20px;
+  line-height: 28px;
+  width: 95%;
+
+}
+.card{
+  min-width: 790px; 
+  height: 344px;
+}
+.col-1 img{
+width: 390px
+
+}
+.menu-list ul{
+  font-size: 15px;
 }
 }
