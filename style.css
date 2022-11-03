@@ -324,6 +324,10 @@ button:hover {
   background: var(--active-color);
   color: var(--card-color);
 }
+.selected-card{
+  border: 2px solid #A7AEFF;
+  box-shadow: 0px 8px 16px rgba(64, 83, 252, 0.24);
+}
 
 /* About-section ends here */
 
