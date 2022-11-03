@@ -119,8 +119,8 @@ ul li {
 
 /* Home-page Starts here */
 .hero-section {
-  width: 375px;
-  height: 718px;
+  width: 100%;
+  height: auto;
   background-image: url("./images/header-background-mobile.svg");
   background-repeat: no-repeat;
   background-position: center;
@@ -375,4 +375,45 @@ color: var(--card-color);
   display: flex;
   cursor: pointer;
   margin-top: 1rem;
+}
+
+
+/* Desktop version */
+
+@media (min-width: 768px) {
+  body {
+  width: 100%;
+  height: auto;
+  background-color: none;
+  }
+  .container {
+  padding: 1rem 8%;
+  }
+  .menu-bar {
+    display:none
+
+  }
+
+  .hero-section {
+    background: url("./images/desktop-base.png");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size:cover;
+    max-width: 768px;
+    height: auto;
+    margin-bottom:10px;
+  }
+  .background-shapes {
+  display:none;
+  }
+  .home-title h1{
+    margin-top: 10%;
+    font-size: 30px;
+    line-height: 31px
+  }
+  .home-title p{
+    font-size:13px;
+    width: 80%;
+
+}
 }
