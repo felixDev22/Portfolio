@@ -507,8 +507,9 @@ gap:30px;
 /* Contact section starts here*/
 
 #contact-section{
+   background-image: url("./images/desktop-contact.png");
   margin-top: -8rem;
-  background-size: cover;
+  height:auto;
 
 }
 .contact-details h1{
@@ -524,5 +525,4 @@ gap:30px;
 .message {
   width: 500px;
 }
-
 }
