@@ -460,9 +460,11 @@ width: 350px
 }
 .col-2 h1{
   font-size: 30px;
-  line-height: 
+  line-height: 32px;
 }
-
+.col-2 br{
+  display:none;
+}
 .col-2 p{
   margin-top: 10px;
 
