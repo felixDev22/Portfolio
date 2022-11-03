@@ -432,7 +432,7 @@ color: var(--card-color);
   margin-left:20px;
 }
 .card{
-   min-width: 690px; 
+  min-width: 690px; 
   height: 327px;
   display: flex;
   flex-direction: column;
@@ -471,4 +471,16 @@ width: 350px
   margin-top: 12px;
 }
 
+/* About section starts here*/
+
+#about-section {
+  width: 100%;
+  margin-top: -150px;
+ 
 }
+.about-title br{
+  display: none;
+}
+
+}
+
