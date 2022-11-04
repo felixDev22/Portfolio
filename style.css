@@ -36,14 +36,15 @@ body {
 
 .container {
   padding: 1rem 1.5rem;
- 
 }
-.flex{
+
+.flex {
   display: flex;
   align-items: center;
   justify-content: space-between;
 }
-.flex2{
+
+.flex2 {
   display: flex;
 }
 
@@ -113,8 +114,9 @@ ul li {
   float: right;
   cursor: pointer;
 }
-.menu-list ul{
-  display:none;
+
+.menu-list ul {
+  display: none;
 }
 
 /* Header-section Ends here */
@@ -127,10 +129,9 @@ ul li {
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
-  padding-bottom:150px;
+  padding-bottom: 150px;
   position: relative;
   z-index: 1000;
- 
 }
 
 .home-title {
@@ -166,9 +167,9 @@ ul li {
   padding-top: 160px;
   padding-bottom: 160px;
   background: var(--portfolio-color);
- 
 }
-.desktop-only{
+
+.desktop-only {
   display: none;
 }
 
@@ -211,9 +212,11 @@ ul li {
   gap: 0.5em;
   margin-top: 0.5rem;
 }
-.work-details a{
+
+.work-details a {
   color: var(--work-details);
 }
+
 .bullet-point {
   background: var(--work-details);
   width: 8px;
@@ -225,7 +228,7 @@ ul li {
   margin-top: 1rem;
 }
 
-.work-tools{
+.work-tools {
   margin-top: 0.2rem;
 }
 
@@ -274,7 +277,8 @@ button:hover {
   margin-top: 1rem;
   margin-bottom: 1rem;
 }
-.languages-section{
+
+.languages-section {
   padding-bottom: 3rem;
 }
 
@@ -320,43 +324,46 @@ button:hover {
   background: var(--active-color);
   color: var(--card-color);
 }
-.selected-card{
-  border: 2px solid #A7AEFF;
-  box-shadow: 0px 8px 16px rgba(64, 83, 252, 0.24);
+
+.selected-card {
+  border: 2px solid #a7aeff;
+  box-shadow: 0 8px 16px rgba(64, 83, 252, 0.24);
 }
 
 /* About-section ends here */
 
 /* Contact-section starts here */
 
-#contact-section{
+#contact-section {
   background-image: url("./images/contact-bkg.png");
   background-repeat: no-repeat;
   background-size: cover;
-  height:779px;
+  height: 779px;
   margin-top: -3rem;
 }
-.contact-details{
-  display:flex;
+
+.contact-details {
+  display: flex;
   flex-direction: column;
-  align-items:center;
+  align-items: center;
   padding-top: 100px;
   text-align: center;
   margin-bottom: 24px;
 }
-.contact-details h1{
+
+.contact-details h1 {
   color: var(--card-color);
 }
-.contact-details p{
-color: var(--card-color);
- margin-top:1rem;
- line-height: 28px;
- font-size: 20px;
+
+.contact-details p {
+  color: var(--card-color);
+  margin-top: 1rem;
+  line-height: 28px;
+  font-size: 20px;
 }
 
-/* .contact-form 
+/* .contact-form
   display: flex; */
-
 
 .form,
 .contact-form-input,
@@ -385,213 +392,242 @@ color: var(--card-color);
 }
 
 /* ================================= media queries ================================= */
+
 /* Desktop version */
 
 @media (min-width: 768px) {
   body {
-  width: 100%;
-  height: auto;
-  background-color: none;
+    width: 100%;
+    height: auto;
+    background-color: none;
   }
+
   .container {
-  padding: 1rem 10%;
+    padding: 1rem 10%;
   }
+
   .menu-bar {
-    display:none
+    display: none;
   }
+
   .hero-section {
     background: url("./images/desktop-base.png");
     background-repeat: no-repeat;
     background-position: center;
-    background-size:cover;
+    background-size: cover;
     min-width: 768px;
     height: auto;
-    margin-bottom:10px;
+    margin-bottom: 10px;
   }
+
   .background-shapes {
-  display:none;
+    display: none;
   }
-  .home-title h1{
+
+  .home-title h1 {
     margin-top: 20%;
     font-size: 38px;
-    line-height: 40px
+    line-height: 40px;
   }
-  .home-title p{
-    font-size:18px;
+
+  .home-title p {
+    font-size: 18px;
     width: 90%;
     line-height: 23px;
-}
-.navbar{
-  margin-top: 1rem;
-}
-.menu-list ul{
-  display:flex;
-  font-size: 13px;
-  
-}
-.menu-list li{
-  margin-left:20px;
-}
-.desktop-only{
-  display: block;
-}
-  .card{
-  width:85%; 
-  height:auto;
-  display: flex;
-  flex-direction: column;
-  padding: 10px;
-  
-}
-.mobile-only{
-  display: none;
-}
+  }
 
-.row{
-display: flex;
-flex-direction: row;
-gap:20px;
+  .navbar {
+    margin-top: 1rem;
+  }
 
-}
-.reverse{
-   display: flex;
-   flex-direction:row-reverse;
+  .menu-list ul {
+    display: flex;
+    font-size: 13px;
+  }
 
-}
-.col-1, .col-2{
-  flex-basis: 50%;
+  .menu-list li {
+    margin-left: 20px;
+  }
 
-}
-.col-1 img{
-width: 100%;
-object-fit: contain;
-}
-.col-2{
-width: 60%;
+  .desktop-only {
+    display: block;
+  }
 
-}
-.work-details a{
-  color: var(--work-details);
+  .card {
+    width: 85%;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    padding: 10px;
+  }
 
-}
-.col-2 h1{
-  margin-top: 10px;
-  font-size: 30px;
-  line-height: 32px;
-}
-.col-2 br{
-  display:none;
-}
-.col-2 p{
-  margin-top: 10px;
+  .mobile-only {
+    display: none;
+  }
 
-}
-.col-2 button{
-  padding: 8px 15px;
-  margin-top: 12px;
-}
+  .row {
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+  }
 
-/* About section starts here*/
+  .reverse {
+    display: flex;
+    flex-direction: row-reverse;
+  }
 
-#about-section {
-  background-image: url("./images/dsk-about.png");
-  width: 100%;
-  margin-top: -150px;
-  padding-bottom: 170px;
- 
-}
-.about-title .row{
-  gap:20px;
-}
+  .col-1,
+  .col-2 {
+    flex-basis: 50%;
+  }
 
-.left{
-  flex-basis: 40%;
-  padding-right: 26px;
-}
-.right{
-  flex-basis:50%;
-}
-.about-title h1 {
-  margin-top:50px;
-}
-.box{
-  display: flex;
-}
-.languages-box {
-  width: 122px;
-  height:120px;
-  margin-right: 20px;
-  margin-top: 0.5rem;
-}
-.languages-box img{
-  width: 60%;
-}
-.languages-box li{
-   display: flex;
-  flex-direction: column;
-}
-.languages-box p{
-  margin-top:-10px;
-}
-.languages-section{
-  padding-top: 1rem;
-  padding-bottom: 1rem;
-}
-.languages-title h3{
- margin-bottom: 15px;
-}
+  .col-1 img {
+    width: 100%;
+    object-fit: contain;
+  }
 
-/* Contact section starts here*/
+  .col-2 {
+    width: 60%;
+  }
 
-#contact-section{
-   background-image: url("./images/desktop-contact.png");
-  margin-top: -8rem;
-  width: 100%;
-  height:auto;
+  .work-details a {
+    color: var(--work-details);
+  }
 
-}
-.contact-details h1{
-  padding-top: 4rem;
-}
-.contact-details p{
-  padding-left: 19%;
-  padding-right: 19%;
-  margin-bottom: 30px ;
-}
-.form,
-.contact-form-input,
-.message {
-  width: 500px;
-}
-.contact-details .primary-btn {
-margin-left: 35%;
-}
+  .col-2 h1 {
+    margin-top: 10px;
+    font-size: 30px;
+    line-height: 32px;
+  }
+
+  .col-2 br {
+    display: none;
+  }
+
+  .col-2 p {
+    margin-top: 10px;
+  }
+
+  .col-2 button {
+    padding: 8px 15px;
+    margin-top: 12px;
+  }
+
+  /* About section starts here */
+
+  #about-section {
+    background-image: url("./images/dsk-about.png");
+    width: 100%;
+    margin-top: -150px;
+    padding-bottom: 170px;
+  }
+
+  .about-title .row {
+    gap: 20px;
+  }
+
+  .left {
+    flex-basis: 40%;
+    padding-right: 26px;
+  }
+
+  .right {
+    flex-basis: 50%;
+  }
+
+  .about-title h1 {
+    margin-top: 50px;
+  }
+
+  .box {
+    display: flex;
+  }
+
+  .languages-box {
+    width: 122px;
+    height: 120px;
+    margin-right: 20px;
+    margin-top: 0.5rem;
+  }
+
+  .languages-box img {
+    width: 60%;
+  }
+
+  .languages-box li {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .languages-box p {
+    margin-top: -10px;
+  }
+
+  .languages-section {
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+  }
+
+  .languages-title h3 {
+    margin-bottom: 15px;
+  }
+
+  /* Contact section starts here */
+
+  #contact-section {
+    background-image: url("./images/desktop-contact.png");
+    margin-top: -8rem;
+    width: 100%;
+    height: auto;
+  }
+
+  .contact-details h1 {
+    padding-top: 4rem;
+  }
+
+  .contact-details p {
+    padding-left: 19%;
+    padding-right: 19%;
+    margin-bottom: 30px;
+  }
+
+  .form,
+  .contact-form-input,
+  .message {
+    width: 500px;
+  }
+
+  .contact-details .primary-btn {
+    margin-left: 35%;
+  }
 }
 
 @media (min-width: 1200px) {
-
-  .logo h2{
+  .logo h2 {
     font-size: 24px;
   }
 
-.home-title h1{
-  font-size: 48px;
-  line-height: 60px;
-}
-.home-title p{
-  font-size: 20px;
-  line-height: 28px;
-  width: 80%;
+  .home-title h1 {
+    font-size: 48px;
+    line-height: 60px;
+  }
 
-}
-.menu-list ul{
-  font-size: 15px;
-}
-.card{
-  width:75%;
-  padding: 20px; 
-}
-.col-2{
-  padding: 20px;
-}
+  .home-title p {
+    font-size: 20px;
+    line-height: 28px;
+    width: 80%;
+  }
+
+  .menu-list ul {
+    font-size: 15px;
+  }
+
+  .card {
+    width: 65%;
+    padding: 20px;
+  }
+
+  .col-2 {
+    padding: 20px;
+  }
 }
