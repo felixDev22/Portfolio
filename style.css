@@ -38,6 +38,14 @@ body {
   padding: 1rem 1.5rem;
  
 }
+.flex{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.flex2{
+  display: flex;
+}
 
 h1 {
   font-size: 40px;
@@ -88,16 +96,7 @@ ul li {
 
 /* Header-section starts here */
 
-.mobile-status {
-  display: flex;
-  align-items: center;
-  justify-content: space-between;
-}
-
 .navbar {
-  display: flex;
-  align-items: center;
-  justify-content: space-between;
   margin-top: 18px;
 }
 
@@ -208,7 +207,6 @@ ul li {
 }
 
 .work-details {
-  display: flex;
   align-items: center;
   gap: 0.5em;
   margin-top: 0.5rem;
@@ -356,9 +354,9 @@ color: var(--card-color);
  font-size: 20px;
 }
 
-.contact-form {
-  display: flex;
-}
+/* .contact-form 
+  display: flex; */
+
 
 .form,
 .contact-form-input,
@@ -424,7 +422,7 @@ color: var(--card-color);
     line-height: 23px;
 }
 .navbar{
-  margin-top: 2rem;
+  margin-top: 1rem;
 }
 .menu-list ul{
   display:flex;
@@ -438,8 +436,8 @@ color: var(--card-color);
   display: block;
 }
   .card{
-  width:90%; 
- height:auto;
+  width:85%; 
+  height:auto;
   display: flex;
   flex-direction: column;
   padding: 10px;
@@ -503,15 +501,15 @@ width: 60%;
  
 }
 .about-title .row{
-gap:30px;
+  gap:20px;
 }
 
 .left{
-  flex-basis: 35%;
+  flex-basis: 40%;
   padding-right: 26px;
 }
 .right{
-  flex-basis: 55%;
+  flex-basis:50%;
 }
 .about-title h1 {
   margin-top:50px;
@@ -526,7 +524,7 @@ gap:30px;
   margin-top: 0.5rem;
 }
 .languages-box img{
-width: 60%;
+  width: 60%;
 }
 .languages-box li{
    display: flex;
@@ -549,7 +547,7 @@ width: 60%;
    background-image: url("./images/desktop-contact.png");
   margin-top: -8rem;
   width: 100%;
-  height:690px;
+  height:auto;
 
 }
 .contact-details h1{
@@ -583,19 +581,17 @@ margin-left: 35%;
 .home-title p{
   font-size: 20px;
   line-height: 28px;
-  width: 67%;
-
-}
-.card{
-  min-width: 790px; 
-  height: 344px;
-}
-.col-1 img{
-width: 390px
+  width: 80%;
 
 }
 .menu-list ul{
   font-size: 15px;
-
+}
+.card{
+  width:75%;
+  padding: 20px; 
+}
+.col-2{
+  padding: 20px;
 }
 }
