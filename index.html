@@ -13,24 +13,32 @@
     <div class="hero-section">
       <header>
         <div class="container">
-          <nav class="navbar">
+          <nav class="navbar flex">
             <div class="logo">
               <a href="index.html"><h2>MOZO</h2></a>
             </div>
+            
+            <div class='menu-list'>
+              <ul>
+                <li><a href="#work-station" aria-label ="portfolio area"></a>Portfolio</li>
+                <li><a href="#about-station" aria-label ="about me area"></a>About</li>
+                <li><a href="#contact-station" aria-label ="contact me area"></a>Contact</li>
+              </ul>
+            </div>
+
+
             <div class="menu-bar">
               <img src="./images/menu-bar.png" alt="menu-bar" />
             </div>
           </nav>
         </div>
       </header>
+     
+
 
       <!-- Header-section Ends here -->
       <!-- Home-page section Starts here -->
       <main>
-        <div class="background-shapes">
-          <img src="./images/header-shapes.svg" alt="background-shapes" />
-        </div>
-
         <section class="home-page container">
           <div class="home-title">
             <h1>
@@ -78,6 +86,7 @@
             </ul>
           </div>
         </section>
+         </div>
         <!-- Home-page section Ends here -->
 
         <!-- Work-section Starts here -->
@@ -86,12 +95,21 @@
           <div class="grid-container">
             <!-- portfolio - 1 -->
             <div class="card">
-              <div class="card-content">
+              <div class="row">
+                <div class="col-1 work-1">
                 <a href="#"
-                  ><img src="./images/Portfolio 1.png" alt="portfolio-1"
+                  ><img src="./images/Portfolio 1.png" class="mobile-only" alt="portfolio-1"
                 /></a>
+  
+                   <a href="#"
+                  ><img src="./images/dsk Portfolio1.png" class="desktop-only" alt="portfolio-1"
+                /></a>
+                
+                </div>
+
+                <div class="col-2">
                 <a href="#"><h1>TONIC</h1></a>
-                <div class="work-details">
+                <div class="work-details flex2">
                   <a href="#"><h3>CANOPY</h3></a>
                   <div class="bullet-point"></div>
                   <a href=""><h4>Back End Dev</h4></a>
@@ -112,19 +130,30 @@
                 <div>
                   <button type="button" class="primary-btn">See Project</button>
                 </div>
+              </div>
               </div>
             </div>
 
             <!-- portfolio - 2 -->
             <div class="card">
-              <div class="card-content">
+              <div class="row reverse">
+                <div class="col-1">
                 <a href="#"
-                  ><img src="./images/Portfolio 2.png" alt="portfolio-1"
+                  ><img src="./images/Portfolio 2.png" class="mobile-only" alt="portfolio-1"
                 /></a>
+
+                     <a href="#"
+                  ><img src="./images/dsk Portfolio2.png" class="desktop-only" alt="portfolio-1"
+                /></a>
+
+                </div>
+
+                <div class="col-2">
                 <a href="#"
-                  ><h1>Multi-Post<br />Stories</h1></a
-                >
-                <div class="work-details">
+                  ><h1>Multi-Post<br /> Stories</h1></a>
+
+                  
+                <div class="work-details flex2">
                   <a href="#"><h3>CANOPY</h3></a>
                   <div class="bullet-point"></div>
                   <a href=""><h4>Back End Dev</h4></a>
@@ -146,16 +175,28 @@
                   <button type="button" class="primary-btn">See Project</button>
                 </div>
               </div>
-            </div>
+              </div>
+                </div>
+              
 
             <!-- portfolio - 3 -->
-            <div class="card">
-              <div class="card-content">
+            <div class="card selected-card">
+              <div class="row">
+                <div class="col-1">
                 <a href="#"
-                  ><img src="./images/Portfolio 3.png" alt="portfolio-1"
+                  ><img src="./images/Portfolio 3.png" class="mobile-only" alt="portfolio-1"
                 /></a>
+
+                    <a href="#"
+                  ><img src="./images/dsk Portfolio3.png" class="desktop-only" alt="portfolio-1"
+                /></a>
+
+
+                </div>
+
+                <div class="col-2" >
                 <a href="#"><h1>TONIC</h1></a>
-                <div class="work-details">
+                <div class="work-details flex2">
                   <a href="#"><h3>CANOPY</h3></a>
                   <div class="bullet-point"></div>
                   <a href=""><h4>Back End Dev</h4></a>
@@ -174,21 +215,32 @@
                   </li>
                 </ul>
                 <div>
-                  <button type="button" class="primary-btn">See Project</button>
+                  <button type="button"class='active'>See Project</button>
                 </div>
+              </div>
               </div>
             </div>
 
             <!-- portfolio - 4 -->
             <div class="card">
-              <div class="card-content">
+              <div class="row reverse">
+                <div class="col-1">
                 <a href="#"
-                  ><img src="./images/Portfolio 4.png" alt="portfolio-1"
+                  ><img src="./images/Portfolio 4.png" class="mobile-only" alt="portfolio-1"
                 /></a>
+
+                    <a href="#"
+                  ><img src="./images/dsk Portfolio.png" class="desktop-only" alt="portfolio-1"
+                /></a>
+
+                </div>
+
+                <div class="col-2">
                 <a href="#"
-                  ><h1>Multi-Post<br />Stories</h1></a
-                >
-                <div class="work-details">
+                  ><h1>Multi-Post<br /> Stories</h1></a>
+
+                  
+                <div class="work-details flex2">
                   <a href="#"><h3>CANOPY</h3></a>
                   <div class="bullet-point"></div>
                   <a href=""><h4>Back End Dev</h4></a>
@@ -210,8 +262,12 @@
                   <button type="button" class="primary-btn">See Project</button>
                 </div>
               </div>
-            </div>
-          </div>
+              </div>
+                </div>
+              </div>
+
+            
+        
         </section>
 
         <!-- Work-section Ends here -->
@@ -219,6 +275,10 @@
         <!-- About-section Starts here -->
         <section id="about-section">
           <div class="about-title container">
+            <div class="row">
+              <div class="left">
+             
+           
             <h1>
               About <br />
               Myself
@@ -265,6 +325,9 @@
             <div>
               <button type="button" class="primary-btn">Get my resume</button>
             </div>
+            </div>
+
+            <div class="right">
 
             <div class="languages-section">
               <ul class="languages-title">
@@ -276,6 +339,7 @@
                 </li>
               </ul>
 
+              <div class="box">
               <ul class="languages-box">
                 <li>
                   <img src="./images/js-icon.svg" alt="js-icon" />
@@ -296,6 +360,7 @@
                   <a href="#"><p>CSS</p></a>
                 </li>
               </ul>
+              </div>
 
               <ul class="languages-title">
                 <li class="bottom-line">
@@ -316,9 +381,38 @@
               </ul>
             </div>
           </div>
+          </div>
+           </div>
         </section>
         <!-- About-section Ends here -->
+
+         <!-- Contact-section Starts here -->
+
+         <section>
+          <div id='contact-section'>
+          <div class='contact-details container'>
+            <h1>Contact me</h1>
+            <p>If you have an application you are interested in developing, a feature that you need built or a project that needs coding. I’d love to help with it </p>
+            
+            <form action="https://formspree.io/f/xaykozra" method="post" >
+              <ul class="input-form">
+              <li>
+                <input type="text" name="namearea" class="contact-form-input" placeholder="Enter Your name" maxlength="30" required>            
+              </li>
+              <li>
+                  <input type="email" name="emailarea" class="contact-form-input" placeholder="Email Address" required>
+                </li>
+                <li>
+                    <textarea class="contact-form-input"  name= "messagearea" cols="30" rows="10" placeholder="Write your message here"  maxlength="500" required></textarea >               
+                  </li>
+              </ul>
+    
+              <button type="submit" name="submitarea" class="primary-btn" id="abt-btn">Get in Touch</button>                 
+            </form>
+          </div>
+
+          </div>
+         </section>
       </main>
-    </div>
   </body>
 </html>
