@@ -8,7 +8,7 @@
 }
 
 body {
-  width: 375px;
+  width: 100%;
   height: auto;
   font-family: "Poppins", sans-serif;
   background-color: var(--off-white);
@@ -124,7 +124,7 @@ ul li {
 .hero-section {
   width: 100%;
   height: auto;
-  background-image: url("./images/header-background-mobile.svg");
+  background-image: url("./images/mobilebase.png");
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
@@ -132,11 +132,6 @@ ul li {
   position: relative;
   z-index: 1000;
  
-}
-
-.background-shapes {
-  z-index: 2;
-  position: absolute;
 }
 
 .home-title {
@@ -173,6 +168,9 @@ ul li {
   padding-bottom: 160px;
   background: var(--portfolio-color);
  
+}
+.desktop-only{
+  display: none;
 }
 
 .card {
@@ -436,31 +434,41 @@ color: var(--card-color);
 .menu-list li{
   margin-left:20px;
 }
-.card{
-  min-width: 690px; 
-  height: 327px;
+.desktop-only{
+  display: block;
+}
+  .card{
+  width:68%; 
+  height:500px;
   display: flex;
   flex-direction: column;
+  padding: 10px;
   
 }
+.mobile-only{
+  display: none;
+}
+
 .row{
 display: flex;
 flex-direction: row;
-gap:20px;
-  
+
 }
 .col-1, .col-2{
   flex-basis: 50%;
-  padding-top: 12px;
+
 }
 .col-1 img{
-width: 350px
+width: 100%;
+object-fit: contain;
+
 }
 .work-details a{
   color: var(--work-details);
 
 }
 .col-2 h1{
+  margin-top: 10px;
   font-size: 30px;
   line-height: 32px;
 }
@@ -549,9 +557,9 @@ width: 60%;
   width: 500px;
 }
 .contact-details .primary-btn {
-margin-left: 35%;}
+margin-left: 35%;
 }
-
+}
 
 @media (min-width: 1200px) {
 
@@ -579,5 +587,6 @@ width: 390px
 }
 .menu-list ul{
   font-size: 15px;
+
 }
 }
