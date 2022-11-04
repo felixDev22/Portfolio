@@ -124,7 +124,7 @@ ul li {
 .hero-section {
   width: 100%;
   height: auto;
-  background-image: url("./images/mobilebase.png");
+  background-image: url("./images/mobile-base.png");
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
@@ -260,7 +260,7 @@ button:hover {
 
 /* About-section starts here */
 #about-section {
-  width: 375px;
+  width: 100%;
   height: 1263;
   margin-top: -70px;
   background-image: url("./images/about-base.png");
@@ -438,8 +438,8 @@ color: var(--card-color);
   display: block;
 }
   .card{
-  width:68%; 
-  height:500px;
+  width:90%; 
+ height:auto;
   display: flex;
   flex-direction: column;
   padding: 10px;
@@ -452,6 +452,12 @@ color: var(--card-color);
 .row{
 display: flex;
 flex-direction: row;
+gap:20px;
+
+}
+.reverse{
+   display: flex;
+   flex-direction:row-reverse;
 
 }
 .col-1, .col-2{
@@ -461,6 +467,9 @@ flex-direction: row;
 .col-1 img{
 width: 100%;
 object-fit: contain;
+}
+.col-2{
+width: 60%;
 
 }
 .work-details a{
