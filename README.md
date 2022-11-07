@@ -23,6 +23,8 @@ Change to the feature branch: git checkout hero-section
 
 Open the index.html in your browser.
 
+### Deployment
+The site is deployed on github pages and you can have access of the project by clicking :- https://felixdev22.github.io/Mobile-first-D3/
 ## Authors
 
 👤 **Author1**
