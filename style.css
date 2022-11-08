@@ -456,6 +456,10 @@ button:hover {
     margin-left: 20px;
   }
 
+  .box li {
+    flex-direction: column;
+  }
+
   .menu-list ul li:hover {
     color: var(--hover-color);
   }
@@ -559,10 +563,6 @@ button:hover {
     height: 120px;
     margin-right: 5%;
     margin-top: 0.5rem;
-  }
-
-  .box li {
-    flex-direction: column;
   }
 
   .languages-box img {
