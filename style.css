@@ -51,7 +51,7 @@ body {
 h1 {
   font-size: 40px;
   font-weight: 900;
-  line-height: 49px;
+  line-height: 40px;
   color: var(--header-color);
 }
 
@@ -59,6 +59,7 @@ h2 {
   font-size: 20px;
   font-weight: 700;
   line-height: 24px;
+  color: var(--header-color);
 }
 
 h3 {
@@ -101,13 +102,13 @@ ul li {
   margin-top: 18px;
 }
 
-.logo {
+.logo h2 {
   color: var(--logo-color);
   cursor: pointer;
 }
 
-.logo:hover {
-  color: var(--hover-color);
+.logo h2:hover {
+  color: var(--active-color);
 }
 
 .menu-bar {
@@ -134,8 +135,8 @@ ul li {
   z-index: 1000;
 }
 
-.home-title {
-  margin-top: 88px;
+.home-title h1{
+  margin-top: 100px;
   z-index: 3;
 }
 
@@ -189,10 +190,10 @@ ul li {
   flex-direction: column;
 }
 
-.card-content h1 {
-  font-size: 28px;
+.col-2 h2 {
+  font-size: 30px;
   line-height: 38px;
-  margin-top: 0.5rem;
+  margin-top: 20px;
 }
 
 .card-content h3 {
@@ -269,8 +270,11 @@ button:hover {
   background-size: cover;
 }
 
-.about-title h1 {
-  margin-top: 100px;
+.about-title h2{
+  margin-top: 70px;
+  font-size:38px;
+  line-height: 44px;
+
 }
 
 .about-title p {
@@ -351,8 +355,11 @@ button:hover {
   margin-bottom: 24px;
 }
 
-.contact-details h1 {
+.contact-details h2 {
   color: var(--card-color);
+  margin-top: 30px;
+  font-size:38px;
+  line-height: 44px;
 }
 
 .contact-details p {
@@ -426,7 +433,7 @@ button:hover {
 
   .home-title h1 {
     margin-top: 20%;
-    font-size: 38px;
+    font-size: 40px;
     line-height: 40px;
   }
 
@@ -443,8 +450,11 @@ button:hover {
   .menu-list ul {
     display: flex;
     font-size: 13px;
+    cursor: pointer;
   }
-
+    .menu-list ul li:hover {
+      color:var(--hover-color);
+    }
   .menu-list li {
     margin-left: 20px;
   }
@@ -494,7 +504,7 @@ button:hover {
     color: var(--work-details);
   }
 
-  .col-2 h1 {
+  .col-2 h2 {
     margin-top: 10px;
     font-size: 30px;
     line-height: 32px;
@@ -535,7 +545,7 @@ button:hover {
     flex-basis: 50%;
   }
 
-  .about-title h1 {
+  .about-title h2 {
     margin-top: 50px;
   }
 
@@ -581,8 +591,8 @@ button:hover {
     height: auto;
   }
 
-  .contact-details h1 {
-    padding-top: 4rem;
+  .contact-details h2 {
+    padding-top: 2rem;
   }
 
   .contact-details p {
@@ -608,13 +618,13 @@ button:hover {
   }
 
   .home-title h1 {
-    font-size: 48px;
+    font-size: 50px;
     line-height: 60px;
   }
 
   .home-title p {
-    font-size: 20px;
-    line-height: 28px;
+    font-size: 25px;
+    line-height: 35px;
     width: 80%;
   }
 
@@ -640,10 +650,10 @@ button:hover {
 
 .home-title h1 {
   animation-duration: 3s;
-  animation-name: slidein;
+  animation-name: slide-in;
 }
 
-@keyframes slidein {
+@keyframes slide-in {
   from {
     margin-top: 100%;
     height: 300%;
