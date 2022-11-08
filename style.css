@@ -308,12 +308,12 @@ button:hover {
 .languages-box {
   background: var(--box-color);
   margin-top: 1rem;
-  padding: 10px;
+  padding: 1%;
 }
 
 .languages-box li {
   display: flex;
-  gap: 1rem;
+  gap: 2rem;
 }
 
 .about-title {
@@ -546,7 +546,7 @@ button:hover {
   .languages-box {
     width: 122px;
     height: 120px;
-    margin-right: 20px;
+    margin-right: 5%;
     margin-top: 0.5rem;
   }
 
@@ -560,7 +560,7 @@ button:hover {
   }
 
   .languages-box p {
-    margin-top: -10px;
+    margin-top: -5%;
   }
 
   .languages-section {
