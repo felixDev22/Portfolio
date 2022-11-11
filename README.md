@@ -3,7 +3,7 @@
 > This a "mobile-first" approach, that gives more priorities in developing mobile version first and perfecting the mobile user experience. Due to the fact that there are rising numbers of mobile users as compared to the desktop users.
 
 ## Project Goal
-    watch :- https://www.loom.com/share/2061bbd4f73749c1be1a68d4c1a363d2
+    watch :- https://www.loom.com/share/e112ff79d69347a9933189450cb9a27e
  
 ## Built With
 
