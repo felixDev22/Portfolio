@@ -114,10 +114,19 @@ ul li {
 .menu-bar {
   float: right;
   cursor: pointer;
+  
+}
+.menu-bar img{
+width: 100%;
+
 }
 
 .menu-list ul {
   display: none;
+}
+menu-list ul li a{
+  cursor: pointer;
+
 }
 
 /* ---------- Dropdown Menu ---------- */
@@ -143,17 +152,21 @@ ul li {
    margin-left: 2rem;
 }
 .mobile-menu ul li{
-  color: var(--card-color);
+  
   margin-top: 5%;
   display: flex;
   flex-direction: column;
+  cursor: pointer;
+  transition: all 0.5s;
+}
+  .mobile-menu ul li a{
+  color: var(--card-color);
   font-size: 32px;
   line-height:44px;
   font-weight: 600;
   letter-spacing: 2px;
-  cursor: pointer;
-  transition: all 0.5s;
-}
+  }
+
 .drop-menu-list{
   margin-top: 15%;
 }
@@ -203,7 +216,7 @@ ul li {
   place-items: center;
 }
 
-#work-section {
+#work {
   margin-top: -70px;
   height: auto;
   padding-top: 160px;
@@ -302,7 +315,7 @@ button:hover {
 }
 
 /* About-section starts here */
-#about-section {
+#about {
   width: 100%;
   height: 1263;
   margin-top: -70px;
@@ -378,7 +391,7 @@ button:hover {
 
 /* Contact-section starts here */
 
-#contact-section {
+#contact {
   background-image: url("./images/contact-bkg.png");
   background-repeat: no-repeat;
   background-size: cover;
@@ -395,7 +408,7 @@ button:hover {
   margin-bottom: 24px;
 }
 
-#contact-section .contact-details h2 {
+#contact .contact-details h2 {
   color: var(--card-color);
   margin-top: 30px;
   font-size: 38px;
@@ -571,7 +584,7 @@ button:hover {
 
   /* About section starts here */
 
-  #about-section {
+  #about {
     background-image: url("./images/dsk-about.png");
     width: 100%;
     margin-top: -150px;
@@ -625,7 +638,7 @@ button:hover {
 
   /* Contact section starts here */
 
-  #contact-section {
+  #contact {
     background-image: url("./images/desktop-contact.png");
     margin-top: -8rem;
     width: 100%;

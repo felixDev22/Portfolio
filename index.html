@@ -14,15 +14,15 @@
       <header>
 
         <!---------------dropdown-menu------------->
-        <div class='mobile-menu mobile-only'>
+        <div class='mobile-menu mobile-only' id='mobile-menu'>
               <div class="menu-x mobile-only">
           <img src="./images/XIcon.svg" alt="close-menu"
-          onclick="closeMenu()" class="closeMenu"/>
+            onclick=closeMenu()  id="closeMenu"/>
         </div>
           <ul class='drop-menu-list'>
-            <li><a href="#work-section" aria-label ="portfolio area" class='target'></a>Portfolio</li>
-            <li><a href="#about-section" aria-label ="about me area"></a>About</li>
-            <li><a href="#contact-section" aria-label ="contact me area"></a>Contact</li>
+            <li><a href="#work" aria-label ="portfolio area" class='target'>Portfolio</a></li>
+            <li><a href="#about" aria-label ="about me area">About</a></li>
+            <li><a href="#contact" aria-label ="contact me area">Contact</a></li>
           </ul>       
         </div>
         <!---------------dropdown-menu------------->
@@ -35,15 +35,15 @@
             
             <div class='menu-list'>
               <ul>
-                <li><a href="#work-section" aria-label ="portfolio area"></a>Portfolio</li>
-                <li><a href="#about-station" aria-label ="about me area"></a>About</li>
-                <li><a href="#contact-station" aria-label ="contact me area"></a>Contact</li>
+                <li><a href="#work" aria-label ="portfolio area" > Portfolio</a></li>
+                <li><a href="#about" aria-label ="about me area" > About</a></li>
+                <li><a href="#contact" aria-label ="contact me area" > Contact</a></li>
               </ul>
             </div>
 
 
             <div class="menu-bar">
-              <img src="./images/menu-bar.png" alt="menu" onclick="showMenu()"/>
+              <img src="./images/menu-bar.png" alt="menu" onclick=showMenu() id="menu"/>
             </div>
           </nav>
         </div>
@@ -106,7 +106,7 @@
 
         <!-- Work-section Starts here -->
 
-        <section id="work-section">
+        <section id="work">
           <div class="grid-container">
             <!-- portfolio - 1 -->
             <div class="card">
@@ -290,7 +290,7 @@
         <!-- Work-section Ends here -->
 
         <!-- About-section Starts here -->
-        <section id="about-section">
+        <section id="about">
           <div class="about-title container">
             <div class="row">
               <div class="left">
@@ -405,7 +405,7 @@
          <!-- Contact-section Starts here -->
 
          <section>
-          <div id='contact-section'>
+          <div id='contact'>
           <div class='contact-details container'>
             <h2>Contact me</h2>
             <p>If you have an application you are interested in developing, a feature that you need built or a project that needs coding. I’d love to help with it </p>
@@ -430,6 +430,6 @@
           </div>
          </section>
       </main>
-      <script src='./script.js'></script>
+       <script type="text/javascript" src="script.js"></script>
   </body>
 </html>
