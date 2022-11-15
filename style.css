@@ -127,6 +127,7 @@ ul li {
   float: right;
   margin-right: 2rem;
   margin-top: 2rem;
+  cursor: pointer;
   
 }
 .mobile-menu{
@@ -150,9 +151,14 @@ ul li {
   line-height:44px;
   font-weight: 600;
   letter-spacing: 2px;
+  cursor: pointer;
+  transition: all 0.5s;
 }
 .drop-menu-list{
   margin-top: 15%;
+}
+.mobile-menu li:hover{
+  color:var(--light-blue);
 }
 
 /* Header-section Ends here */
