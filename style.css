@@ -116,63 +116,66 @@ ul li {
 .menu-bar {
   float: right;
   cursor: pointer;
-  
 }
-.menu-bar img{
-width: 150%;
+
+.menu-bar img {
+  width: 150%;
 }
 
 .menu-list ul {
   display: none;
 }
-menu-list ul li a{
-  cursor: pointer;
 
+.menu-list ul li a {
+  cursor: pointer;
 }
 
 /* ---------- Dropdown Menu ---------- */
 
-.menu-x img{
+.menu-x img {
   width: 4%;
   float: right;
   margin-right: 2rem;
   margin-top: 2rem;
   cursor: pointer;
-  
 }
-.mobile-menu{
+
+.mobile-menu {
   position: absolute;
-  background:rgba(34, 49, 211, 0.802);
+  background: rgba(34, 49, 211, 0.802);
   backdrop-filter: blur(5px);
   top: 0;
   left: 0;
   width: 100%;
-  height:100vh;
+  height: 100vh;
 }
-.mobile-menu ul{
-   margin-left: 2rem;
+
+.mobile-menu ul {
+  margin-left: 2rem;
 }
+
 .mobile-menu ul li{
-  
-  margin-top: 5%;
+   margin-top: 5%;
   display: flex;
   flex-direction: column;
   cursor: pointer;
   transition: all 0.5s;
 }
-  .mobile-menu ul li a{
+
+.mobile-menu ul li a {
   color: var(--card-color);
   font-size: 32px;
-  line-height:44px;
+  line-height: 44px;
   font-weight: 600;
   letter-spacing: 2px;
-  }
+}
 
-.drop-menu-list{
+.drop-menu-list {
   margin-top: 15%;
 }
-.mobile-menu li:hover{
-  color:var(--light-blue);
+
+.mobile-menu li:hover {
+  color: var(--light-blue);
 }
 
 /* Header-section Ends here */
