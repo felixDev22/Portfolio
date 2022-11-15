@@ -1,4 +1,4 @@
-@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap");
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap');
 
 * {
   margin: 0;
@@ -10,7 +10,7 @@
 body {
   width: 100%;
   height: auto;
-  font-family: "Poppins", sans-serif;
+  font-family: 'Poppins', sans-serif;
   background-color: var(--off-white);
 }
 
@@ -100,11 +100,13 @@ ul li {
 
 .navbar {
   margin-top: 18px;
+  margin-bottom: 70px;
 }
 
 .logo h2 {
   color: var(--logo-color);
   cursor: pointer;
+  font-size: 24px;
 }
 
 .logo h2:hover {
@@ -116,8 +118,50 @@ ul li {
   cursor: pointer;
 }
 
+.menu-bar img {
+  width: 150%;
+}
+
 .menu-list ul {
   display: none;
+}
+
+/* ---------- Dropdown Menu ---------- */
+
+.menu-x img {
+  width: 4%;
+  float: right;
+  margin-right: 2rem;
+  margin-top: 2rem;
+  cursor: pointer;
+}
+
+.mobile-menu {
+  display: none;
+  position: absolute;
+  background: rgba(34, 49, 211, 0.802);
+  backdrop-filter: blur(5px);
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100vh;
+}
+
+.drop-menu-list a {
+  color: var(--card-color);
+  font-size: 32px;
+  line-height: 44px;
+  font-weight: 600;
+  letter-spacing: 2px;
+}
+
+.drop-menu-list li {
+  margin-left: 2rem;
+  margin-top: 10%;
+  display: flex;
+  flex-direction: column;
+  cursor: pointer;
+  transition: all 0.5s;
 }
 
 /* Header-section Ends here */
@@ -126,7 +170,7 @@ ul li {
 .hero-section {
   width: 100%;
   height: auto;
-  background-image: url("./images/mobile-base.png");
+  background-image: url('./images/mobile-base.png');
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
@@ -162,7 +206,7 @@ ul li {
   place-items: center;
 }
 
-#work-section {
+#work {
   margin-top: -70px;
   height: auto;
   padding-top: 160px;
@@ -261,11 +305,11 @@ button:hover {
 }
 
 /* About-section starts here */
-#about-section {
+#about {
   width: 100%;
-  height: 1263;
+  height: 1263px;
   margin-top: -70px;
-  background-image: url("./images/about-base.png");
+  background-image: url('./images/about-base.png');
   background-repeat: no-repeat;
   background-size: cover;
 }
@@ -337,8 +381,8 @@ button:hover {
 
 /* Contact-section starts here */
 
-#contact-section {
-  background-image: url("./images/contact-bkg.png");
+#contact {
+  background-image: url('./images/contact-bkg.png');
   background-repeat: no-repeat;
   background-size: cover;
   height: 779px;
@@ -354,7 +398,7 @@ button:hover {
   margin-bottom: 24px;
 }
 
-#contact-section .contact-details h2 {
+#contact .contact-details h2 {
   color: var(--card-color);
   margin-top: 30px;
   font-size: 38px;
@@ -368,9 +412,6 @@ button:hover {
   font-size: 20px;
 }
 
-/* .contact-form
-  display: flex; */
-
 .form,
 .contact-form-input,
 .message {
@@ -383,7 +424,7 @@ button:hover {
   border-radius: 0.4rem;
   margin-top: 20px;
   border: 1px solid #cfd8dc;
-  font-family: "Poppins", sans-serif;
+  font-family: 'Poppins', sans-serif;
 }
 
 .contact-form-input {
@@ -405,7 +446,7 @@ button:hover {
   body {
     width: 100%;
     height: auto;
-    background-color: none;
+    background: none;
   }
 
   .container {
@@ -417,7 +458,7 @@ button:hover {
   }
 
   .hero-section {
-    background: url("./images/desktop-base.png");
+    background: url('./images/desktop-base.png');
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
@@ -530,8 +571,8 @@ button:hover {
 
   /* About section starts here */
 
-  #about-section {
-    background-image: url("./images/dsk-about.png");
+  #about {
+    background-image: url('./images/dsk-about.png');
     width: 100%;
     margin-top: -150px;
     padding-bottom: 170px;
@@ -584,8 +625,8 @@ button:hover {
 
   /* Contact section starts here */
 
-  #contact-section {
-    background-image: url("./images/desktop-contact.png");
+  #contact {
+    background-image: url('./images/desktop-contact.png');
     margin-top: -8rem;
     width: 100%;
     height: auto;
