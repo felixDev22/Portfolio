@@ -100,11 +100,13 @@ ul li {
 
 .navbar {
   margin-top: 18px;
+  margin-bottom: 70px;
 }
 
 .logo h2 {
   color: var(--logo-color);
   cursor: pointer;
+  font-size: 24px;
 }
 
 .logo h2:hover {
@@ -117,8 +119,7 @@ ul li {
   
 }
 .menu-bar img{
-width: 100%;
-
+width: 150%;
 }
 
 .menu-list ul {
