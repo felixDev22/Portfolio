@@ -12,7 +12,7 @@ mobileMenu.onclick = function close() {
   mobileMenu.style.display = 'none';
 };
 
-// create dynamic card popup//**
+// create popup card//**
 
 const dynamic = document.querySelector('.popup');
 dynamic.innerHTML = `<div class="row">
@@ -45,19 +45,25 @@ dynamic.innerHTML = `<div class="row">
                 <div class="left-col">
                 <div class="text-side">
 
-                <p>
+                <p class="desktop-only" >
                   Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the releaLorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the releorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum han printer took a galley of type and scrambled it 1960s with the releawn printer took a galley of type and scrambled it 1960s with the releaLorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the relea
+                </p>
+                <p class="mobile-only" >
+                  Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essent
                 </p>
                 </div>
                 <div class="links-side">
                 <ul>
                   <li class="work-tools">
-                    <button type="button" class="tools">html</button>
-                    <button type="button" class="tools">css</button>
-                    <button type="button" class="tools">javascript</button>
-                    <button type="button" class="tools">github</button>
-                    <button type="button" class="tools">ruby</button>
-                    <button type="button" class="tools">Bootstraps</button>
+                    <button type="button" class="tools desktop-only">html</button>
+                    <button type="button" class="tools desktop-only">css</button>
+                    <button type="button" class="tools desktop-only">javascript</button>
+                    <button type="button" class="tools desktop-only">github</button>
+                    <button type="button" class="tools desktop-only">ruby</button>
+                    <button type="button" class="tools desktop-only">Bootstraps</button>
+                    <button type="button" class="tools mobile-only">html</button>
+                    <button type="button" class="tools mobile-only">css</button>
+                    <button type="button" class="tools mobile-only">javascript</button>
                   </li>
                 </ul>
                 <div class='live-btn'>
