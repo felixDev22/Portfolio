@@ -715,3 +715,86 @@ button:hover {
     }
   }
 }
+
+/* <------------------ Pop-up ---------------> */
+.popup {
+  position: absolute;
+  z-index: 200px;
+  width: 85%;
+  height: auto;
+  margin: -10px auto;
+  background: var(--card-color);
+  border: 1px solid #cfd8dc;
+  box-shadow: 0px 48px 48px rgba(37, 47, 137, 0.08);
+  border-radius: 16px;
+}
+.popup .row {
+  display: flex;
+  flex-direction: column;
+}
+.right-col img {
+  width: 98%;
+  height: auto;
+  margin: 40px auto;
+}
+.close img {
+  width: 2%;
+  float: right;
+  margin-top: -20px;
+}
+.popup .right-col img:hover {
+  transform: none;
+}
+.right-col {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding: 30px;
+}
+.popup p {
+  margin-bottom: 30px;
+}
+.popup .left-col {
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  padding: 0 50px;
+  gap: 30px;
+}
+.text-side {
+  flex-basis: 70%;
+  padding-right: 10px;
+}
+.links-side {
+  flex-basis: 30%;
+  flex-wrap: wrap;
+}
+
+.popup .work-tools {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+}
+.work-tools .tools {
+  margin-top: 2px;
+}
+
+.popup .work-tools li {
+  flex-wrap: wrap;
+}
+.live-btn {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+}
+
+.pop-btn {
+  padding: 5px 19px;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  gap: 4px;
+}
