@@ -15,9 +15,7 @@ mobileMenu.onclick = function close() {
 // create dynamic card popup//**
 
 const dynamic = document.querySelector('.popup');
-
-function popDisplay() {
-  dynamic.innerHTML = `<div class="row">
+dynamic.innerHTML = `<div class="row">
                 <div class="right-col work-1">
                   <a href="#"><h2>TONIC</h2></a>
                 <div class="work-details flex2">
@@ -80,6 +78,9 @@ function popDisplay() {
               </div>
               </div>
               </div>`;
+
+function popDisplay() {
+  dynamic.style.display = 'block';
 }
 
 const display = document.querySelectorAll('.primary-btn');
@@ -94,7 +95,5 @@ const popup = document.querySelector('.popup');
 function closePopup() {
   popup.style.display = 'none';
 }
-
-// console.log(closeModal);
 
 closeModal.addEventListener('click', closePopup);

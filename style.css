@@ -717,10 +717,19 @@ button:hover {
 }
 
 /* <------------------ Pop-up ---------------> */
-.popup {
+
+.container-pop {
   position: absolute;
+  background: #c1c7d0;
+  backdrop-filter: blur(5px);
+  top: 1200px;
+  bottom: 0px;
+  right: 0px;
+}
+
+.popup {
   z-index: 200px;
-  width: 85%;
+  width: 70%;
   height: auto;
   margin: -10px auto;
   background: var(--card-color);
