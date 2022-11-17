@@ -14,6 +14,41 @@ mobileMenu.onclick = function close() {
 
 // create popup card//**
 
+const portfolioData = [
+  {
+    title: 'Tonic',
+    workDetails: ['CANOPY', 'Back End Dev', '2015'],
+    image: './images/Portfolio 1.png',
+    description:
+      'A daily selection of privately personalized reads; no accounts or sign-ups required.',
+    workTools: ['html', 'css', 'javaScript', 'github', 'Ruby', 'Bootstrap'],
+  },
+  {
+    title: 'Multi-Post Stories',
+    workDetails: ['FACEBOOK', 'Back End Dev', '2015'],
+    image: './images/Portfolio 2.png',
+    description:
+      'A daily selection of privately personalized reads; no accounts or sign-ups required.',
+    workTools: ['html', 'css', 'javaScript', 'github', 'Ruby', 'Bootstrap'],
+  },
+  {
+    title: 'Facebook 360',
+    workDetails: ['FACEBOOK', 'Back End Dev', '2015'],
+    image: './images/Portfolio 3.png',
+    description:
+      'A daily selection of privately personalized reads; no accounts or sign-ups required.',
+    workTools: ['html', 'css', 'javaScript', 'github', 'Ruby', 'Bootstrap'],
+  },
+  {
+    title: 'Uber Navigation',
+    workDetails: ['FACEBOOK', 'Back End Dev', '2015'],
+    image: './images/Portfolio 4.png',
+    description:
+      'A daily selection of privately personalized reads; no accounts or sign-ups required.',
+    workTools: ['html', 'css', 'javaScript', 'github', 'Ruby', 'Bootstrap'],
+  },
+];
+
 const dynamic = document.querySelector('.popup');
 dynamic.innerHTML = `<div class="row">
                 <div class="right-col work-1">
@@ -76,7 +111,7 @@ dynamic.innerHTML = `<div class="row">
                   
                   <div class= "btn-2">
                   <button type="button" class="pop-btn">
-                  <span>See live</span>
+                  <span>Source</span>
                   <span><img src="./images/bluegithub.svg" alt='live'></span>
                   </button>
                   </div>
