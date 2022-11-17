@@ -52,9 +52,9 @@ const portfolioData = [
 const dynamic = document.querySelector('.popup');
 dynamic.innerHTML = `<div class="row">
                 <div class="right-col work-1">
-                  <a href="#"><h2>TONIC</h2></a>
+                  <a href="#"><h2>${portfolioData[0].title}</h2></a>
                 <div class="work-details flex2">
-                  <a href="#"><h3>CANOPY</h3></a>
+                  <a href="#"><h3>${portfolioData[0].workDetails[0]}</h3></a>
                   <div class="bullet-point"></div>
                   <a href=""><h4>Back End Dev</h4></a>
                   <div class="bullet-point"></div>
@@ -120,6 +120,7 @@ dynamic.innerHTML = `<div class="row">
               </div>
               </div>`;
 
+const overlay = document.querySelector('.back-pop');
 function popDisplay() {
   dynamic.style.display = 'block';
   overlay.style.display = 'flex';
@@ -133,7 +134,6 @@ Array.from(display).forEach((element) => {
 const closeModal = document.querySelector('.x-icon');
 
 const popup = document.querySelector('.popup');
-const overlay = document.querySelector('.back-pop');
 
 function closePopup() {
   popup.style.display = 'none';

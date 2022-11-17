@@ -791,10 +791,6 @@ button:hover {
 
   /* ====================================== Animation ---------------------------------------------------------------- */
 
-  .col-1 img:hover {
-    transform: scale(1.2);
-  }
-
   .home-page h1 {
     animation-duration: 3s;
     animation-name: slide-in;
@@ -823,8 +819,8 @@ button:hover {
     width: 20px;
   }
 
-  .popup .right-col img:hover {
-    transform: none;
+  .col-1 img:hover {
+    transform: scale(1.2);
   }
 
   .right-col {
@@ -832,6 +828,10 @@ button:hover {
     flex-direction: column;
     justify-content: center;
     padding: 30px;
+  }
+
+  .popup .right-col img:hover {
+    transform: none;
   }
 
   .popup p {
