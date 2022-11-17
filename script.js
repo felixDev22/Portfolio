@@ -18,9 +18,11 @@ const portfolioData = [
   {
     title: 'Tonic',
     workDetails: ['CANOPY', 'Back End Dev', '2015'],
-    image: './images/Portfolio 1.png',
+    image: './images/pop-img1.png',
     description:
       'A daily selection of privately personalized reads; no accounts or sign-ups required.',
+    details:
+      "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the releaLorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the releorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum han printer took a galley of type and scrambled it 1960s with the releawn printer took a galley of type and scrambled it 1960s with the releaLorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the relea",
     workTools: ['html', 'css', 'javaScript', 'github', 'Ruby', 'Bootstrap'],
   },
   {
@@ -29,6 +31,8 @@ const portfolioData = [
     image: './images/Portfolio 2.png',
     description:
       'A daily selection of privately personalized reads; no accounts or sign-ups required.',
+    details:
+      "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the releaLorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the releorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum han printer took a galley of type and scrambled it 1960s with the releawn printer took a galley of type and scrambled it 1960s with the releaLorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the relea",
     workTools: ['html', 'css', 'javaScript', 'github', 'Ruby', 'Bootstrap'],
   },
   {
@@ -37,6 +41,8 @@ const portfolioData = [
     image: './images/Portfolio 3.png',
     description:
       'A daily selection of privately personalized reads; no accounts or sign-ups required.',
+    details:
+      "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the releaLorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the releorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum han printer took a galley of type and scrambled it 1960s with the releawn printer took a galley of type and scrambled it 1960s with the releaLorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the relea",
     workTools: ['html', 'css', 'javaScript', 'github', 'Ruby', 'Bootstrap'],
   },
   {
@@ -45,7 +51,11 @@ const portfolioData = [
     image: './images/Portfolio 4.png',
     description:
       'A daily selection of privately personalized reads; no accounts or sign-ups required.',
+    details:
+      "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the releaLorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the releorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum han printer took a galley of type and scrambled it 1960s with the releawn printer took a galley of type and scrambled it 1960s with the releaLorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the relea",
     workTools: ['html', 'css', 'javaScript', 'github', 'Ruby', 'Bootstrap'],
+    liveLink: 'https://felixdev22.github.io/Mobile-first-D3/',
+    source: 'https://felixdev22.github.io/Mobile-first-D3/',
   },
 ];
 
@@ -56,9 +66,9 @@ dynamic.innerHTML = `<div class="row">
                 <div class="work-details flex2">
                   <a href="#"><h3>${portfolioData[0].workDetails[0]}</h3></a>
                   <div class="bullet-point"></div>
-                  <a href=""><h4>Back End Dev</h4></a>
+                  <a href=""><h4>${portfolioData[0].workDetails[1]}</h4></a>
                   <div class="bullet-point"></div>
-                  <a href=""><h4>2015</h4></a>
+                  <a href=""><h4>${portfolioData[0].workDetails[2]}</h4></a>
                   
                 </div>
 
@@ -72,7 +82,7 @@ dynamic.innerHTML = `<div class="row">
                 /></a>
   
                    <a href="#"
-                  ><img src="./images/pop-img1.png" class="desktop-only" alt="portfolio-1"
+                  ><img src="${portfolioData[0].image}" class="desktop-only" alt="portfolio-1"
                 /></a>
                 
                 </div>
@@ -81,7 +91,7 @@ dynamic.innerHTML = `<div class="row">
                 <div class="text-side">
 
                 <p class="desktop-only" >
-                  Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the releaLorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the releorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum han printer took a galley of type and scrambled it 1960s with the releawn printer took a galley of type and scrambled it 1960s with the releaLorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the relea
+                  ${portfolioData[0].details}
                 </p>
                 <p class="mobile-only" >
                   Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essent
@@ -90,29 +100,31 @@ dynamic.innerHTML = `<div class="row">
                 <div class="links-side">
                 <ul>
                   <li class="work-tools">
-                    <button type="button" class="tools desktop-only">html</button>
-                    <button type="button" class="tools desktop-only">css</button>
-                    <button type="button" class="tools desktop-only">javascript</button>
-                    <button type="button" class="tools desktop-only">github</button>
-                    <button type="button" class="tools desktop-only">ruby</button>
-                    <button type="button" class="tools desktop-only">Bootstraps</button>
-                    <button type="button" class="tools mobile-only">html</button>
-                    <button type="button" class="tools mobile-only">css</button>
-                    <button type="button" class="tools mobile-only">javascript</button>
+                    <button type="button" class="tools desktop-only"> ${portfolioData[0].workTools[0]}</button>
+                    <button type="button" class="tools desktop-only">${portfolioData[0].workTools[1]}</button>
+                    <button type="button" class="tools desktop-only">${portfolioData[0].workTools[2]}</button>
+                    <button type="button" class="tools desktop-only">${portfolioData[0].workTools[3]}</button>
+                    <button type="button" class="tools desktop-only">${portfolioData[0].workTools[4]}</button>
+                    <button type="button" class="tools desktop-only">${portfolioData[0].workTools[5]}</button>
+                    <button type="button" class="tools mobile-only">${portfolioData[0].workTools[0]}</button>
+                    <button type="button" class="tools mobile-only">${portfolioData[0].workTools[1]}</button>
+                    <button type="button" class="tools mobile-only">${portfolioData[0].workTools[2]}</button>
                   </li>
                 </ul>
-                <div class='live-btn'>
+               <div class='live-btn'>
                   <div class= "btn-1">
                   <button type="button" class="pop-btn">
-                  <span>See live</span>
-                  <span><img src="./images/live-icon.svg" alt='live'></span>
+                    <span>See live<a href="${portfolioData[0].liveLink}"></a></span>
+                    <span><img src="./images/live-Icon.svg" alt='live'>
+                  <a href="https://felixdev22.github.io/Mobile-first-D3/"></a></span>
                   </button>
-                  </div>
+                </div>
                   
                   <div class= "btn-2">
                   <button type="button" class="pop-btn">
-                  <span>Source</span>
-                  <span><img src="./images/bluegithub.svg" alt='live'></span>
+                  <span>See Source<a href="${portfolioData[0].source}"></a></span>
+                  <span><img src="./images/bluegithub.svg" alt='live'>
+                  <a href="https://github.com/felixDev22/Mobile-first-D3"></a></span>
                   </button>
                   </div>
                 </div>
