@@ -81,6 +81,7 @@ dynamic.innerHTML = `<div class="row">
 
 function popDisplay() {
   dynamic.style.display = 'block';
+  overlay.style.display = 'flex';
 }
 
 const display = document.querySelectorAll('.primary-btn');
@@ -91,9 +92,11 @@ Array.from(display).forEach((element) => {
 const closeModal = document.querySelector('.x-icon');
 
 const popup = document.querySelector('.popup');
+const overlay = document.querySelector('.back-pop');
 
 function closePopup() {
   popup.style.display = 'none';
+  overlay.style.display = 'none';
 }
 
 closeModal.addEventListener('click', closePopup);
