@@ -307,7 +307,7 @@ button:hover {
 /* About-section starts here */
 #about {
   width: 100%;
-  height: 1263px;
+  height: auto;
   margin-top: -70px;
   background-image: url('./images/about-base.png');
   background-repeat: no-repeat;
