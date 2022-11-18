@@ -383,7 +383,7 @@ function closePopup() {
 
 closeModal.addEventListener('click', closePopup);
 
-// ------------------------- Pop-up section --------------------//
+// ------------------------- Pop-up section ends --------------------//
 
 // --------- implement the validation form ---------------
 
