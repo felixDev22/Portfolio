@@ -387,10 +387,27 @@ closeModal.addEventListener('click', closePopup);
 
 // --------- implement the validation form ---------------
 
-const form = document.querySelector('.input-form');
-const email = document.getElementsByClassName('.contact-form-input')[0];
-const emailValid =
-  /^[a-zA-Z0-9.!#$%&'*+/=?^_`{|}~-]+@[a-zA-Z0-9-]+(?:\.[a-zA-Z0-9-]+)*$/;
+const form = document.getElementById('form');
+const email = document.getElementById('email');
+const error = document.querySelector('.error');
 
+console.log(error);
+console.log(form);
+console.log(email);
 
-const errorMsg = document.querySelector('.error-msg');
+function validate(userEmail) {
+  if (
+    userEmail.match(/^([a-z0-9.-]+)+@([a-z0-9-]+).([a-z]{2,8})(.[a-z]{2,8})?$/)
+  ) {
+    return true;
+  }
+  false;
+}
+form.addEventListener('submit', (e) => {
+  if (!validate(email.value)) {
+    e.preventDefault();
+    error.innerText = 'Please enter email in lowercase!';
+  } else {
+    error.innerText = '';
+  }
+});
