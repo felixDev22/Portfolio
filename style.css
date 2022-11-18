@@ -164,9 +164,110 @@ ul li {
   transition: all 0.5s;
 }
 
+/* <------------------ Pop-up ---------------> */
+
+.back-pop {
+  position: absolute;
+  background-color: rgba(130, 134, 141, 0.841);
+  backdrop-filter: blur(5px);
+  width: 100%;
+  height: 2000px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+}
+
+.popup {
+  position: relative;
+  z-index: 200;
+  width: 70%;
+  margin-top: 50px;
+  background: var(--card-color);
+  border: 1px solid #cfd8dc;
+  box-shadow: 0 48px 48px rgba(37, 47, 137, 0.08);
+  border-radius: 16px;
+}
+
+.popup .row {
+  display: flex;
+  flex-direction: column;
+}
+
+.right-col img {
+  width: 100%;
+  height: auto;
+  margin: 10px auto;
+}
+
+.close img {
+  width: 5%;
+  float: right;
+  margin-top: -50px;
+}
+
+.right-col {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding: 10px;
+}
+
+.popup p {
+  margin-bottom: 5px;
+}
+
+.popup .left-col {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  padding: 0 10px;
+}
+
+.text-side {
+  flex-basis: 70%;
+  padding: 0 10px;
+}
+
+.links-side {
+  flex-basis: 30%;
+}
+
+.popup .work-tools {
+  display: flex;
+  flex-wrap: wrap;
+  padding-left: 9px;
+  gap: 10px;
+}
+
+.live-btn {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+}
+
+.pop-btn {
+  padding: 10px 25px;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  margin-top: 30px;
+  margin-bottom: 20px;
+  gap: 10px;
+}
+
+/* <------------------ Pop-up ---------------> */
+
 /* Header-section Ends here */
 
 /* Home-page Starts here */
+
 .hero-section {
   width: 100%;
   height: auto;
@@ -176,7 +277,6 @@ ul li {
   background-size: cover;
   padding-bottom: 150px;
   position: relative;
-  z-index: 1000;
 }
 
 .home-title h1 {
@@ -258,6 +358,14 @@ ul li {
   margin-top: 0.5rem;
 }
 
+.work-details h3 {
+  font-size: 0.8rem;
+}
+
+.work-details h4 {
+  font-size: 0.75rem;
+}
+
 .work-details a {
   color: var(--work-details);
 }
@@ -273,10 +381,6 @@ ul li {
   margin-top: 1rem;
 }
 
-.work-tools {
-  margin-top: 0.2rem;
-}
-
 .tools {
   color: var(--logo-color);
   background: var(--work-tools);
@@ -285,6 +389,7 @@ ul li {
   padding: 8px 12px;
   border-radius: 8px;
   font-size: 14px;
+  margin-top: 2px;
 }
 
 button {
@@ -307,7 +412,7 @@ button:hover {
 /* About-section starts here */
 #about {
   width: 100%;
-  height: 1263px;
+  height: auto;
   margin-top: -70px;
   background-image: url('./images/about-base.png');
   background-repeat: no-repeat;
@@ -651,67 +756,132 @@ button:hover {
   .contact-details .primary-btn {
     margin-left: 35%;
   }
-}
 
-@media (min-width: 1200px) {
-  .logo h2 {
-    font-size: 24px;
+  .close img {
+    width: 2%;
   }
 
-  .home-title h1 {
-    font-size: 50px;
-    line-height: 60px;
-  }
-
-  .home-title p {
-    font-size: 25px;
-    line-height: 35px;
-    width: 80%;
-  }
-
-  .menu-list ul {
-    font-size: 15px;
-  }
-
-  .card {
-    width: 65%;
-    padding: 20px;
-  }
-
-  .card p {
-    font-size: 19px;
-  }
-
-  .col-2 {
-    padding: 20px;
-  }
-
-  .contact-details h2 {
-    padding-top: 2rem;
-    color: var(--card-color);
-    font-size: 38px;
-  }
-
-  /* ====================================== Animation ---------------------------------------------------------------- */
-
-  .col-1 img:hover {
-    transform: scale(1.2);
-  }
-
-  .home-page h1 {
-    animation-duration: 3s;
-    animation-name: slide-in;
-  }
-
-  @keyframes slide-in {
-    from {
-      margin-top: 100%;
-      height: 300%;
+  @media (min-width: 1200px) {
+    .logo h2 {
+      font-size: 24px;
     }
 
-    to {
-      margin-bottom: 0%;
-      height: 100%;
+    .home-title h1 {
+      font-size: 50px;
+      line-height: 60px;
+    }
+
+    .home-title p {
+      font-size: 25px;
+      line-height: 35px;
+      width: 80%;
+    }
+
+    .menu-list ul {
+      font-size: 15px;
+    }
+
+    .card {
+      width: 65%;
+      padding: 20px;
+    }
+
+    .card p {
+      font-size: 19px;
+    }
+
+    .col-2 {
+      padding: 20px;
+    }
+
+    .contact-details h2 {
+      padding-top: 2rem;
+      color: var(--card-color);
+      font-size: 38px;
+    }
+
+    /* ====================================== Animation ---------------------------------------------------------------- */
+
+    .home-page h1 {
+      animation-duration: 3s;
+      animation-name: slide-in;
+    }
+
+    @keyframes slide-in {
+      from {
+        margin-top: 100%;
+        height: 300%;
+      }
+
+      to {
+        margin-bottom: 0%;
+        height: 100%;
+      }
+    }
+
+    /* <------------------ Pop-up ---------------> */
+
+    .popup .row {
+      display: flex;
+      flex-direction: column;
+    }
+
+    .close img {
+      width: 20px;
+    }
+
+    .col-1 img:hover {
+      transform: scale(1.2);
+    }
+
+    .right-col {
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      padding: 30px;
+    }
+
+    .popup .right-col img:hover {
+      transform: none;
+    }
+
+    .popup p {
+      margin-bottom: 30px;
+    }
+
+    .popup .left-col {
+      width: 100%;
+      display: flex;
+      flex-direction: row;
+      padding: 0 50px;
+      gap: 30px;
+    }
+
+    .text-side {
+      flex-basis: 70%;
+      padding-right: 10px;
+    }
+
+    .links-side {
+      flex-basis: 30%;
+      flex-wrap: wrap;
+    }
+
+    .popup .work-tools li {
+      flex-wrap: wrap;
+    }
+
+    .live-btn {
+      display: flex;
+      flex-direction: row;
+      justify-content: center;
+      align-items: center;
+      gap: 10px;
+    }
+
+    .pop-btn {
+      padding: 6px 14px;
+      gap: 5px;
     }
   }
 }
