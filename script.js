@@ -384,9 +384,13 @@ function closePopup() {
 closeModal.addEventListener('click', closePopup);
 
 // ------------------------- Pop-up section --------------------//
+
 // --------- implement the validation form ---------------
 
 const form = document.querySelector('.input-form');
 const email = document.getElementsByClassName('.contact-form-input')[0];
-const errorMsg = document.querySelector('.error-msg');
+const emailValid =
+  /^[a-zA-Z0-9.!#$%&'*+/=?^_`{|}~-]+@[a-zA-Z0-9-]+(?:\.[a-zA-Z0-9-]+)*$/;
 
+
+const errorMsg = document.querySelector('.error-msg');
