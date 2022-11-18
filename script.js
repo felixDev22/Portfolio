@@ -110,10 +110,10 @@ const portfolioData = [
 
     workTools: ['html', 'css', 'javaScript', 'github', 'Ruby', 'Bootstrap'],
 
-    liveLinkIcon: './images/live-Icon.svg',
+    liveIcon: './images/live-Icon.svg',
     liveLink: 'https://felixdev22.github.io/Mobile-first-D3/',
 
-    sourceLink: 'https://felixdev22.github.io/Mobile-first-D3/',
+    sourceLink: 'https://github.com/felixDev22/Mobile-first-D3',
     sourceIcon: './images/bluegithub.svg',
   },
 ];
@@ -311,7 +311,7 @@ dynamic.innerHTML = `<div class="row">
         </div>
                   
                 <a href="#"
-                  ><img src="./images/Portfolio 1.png" class="mobile-only" alt="portfolio-1"
+                  ><img src="${portfolioData[1].image}" class="mobile-only" alt="portfolio-1"
                 /></a>
   
                    <a href="#"
@@ -325,7 +325,7 @@ dynamic.innerHTML = `<div class="row">
                   ${portfolioData[0].details}
                 </p>
                 <p class="mobile-only" >
-                  Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essent
+                  ${portfolioData[7].details2}
                 </p>
                 </div>
                 <div class="links-side">
@@ -345,17 +345,15 @@ dynamic.innerHTML = `<div class="row">
                <div class='live-btn'>
                   <div class= "btn-1">
                   <button type="button" class="pop-btn">
-                    <span>See live<a href="${portfolioData[0].liveLink}"></a></span>
-                    <span><img src="./images/live-Icon.svg" alt='live'>
-                  <a href="https://felixdev22.github.io/Mobile-first-D3/"></a></span>
+                    <a href="${portfolioData[7].liveLink}" target="_blank">See Live</a>
+                    <span><img src="${portfolioData[7].liveIcon}" alt='live'>
                   </button>
                 </div>
                   
                   <div class= "btn-2">
                   <button type="button" class="pop-btn">
-                  <span>See Source<a href="${portfolioData[0].source}"></a></span>
-                  <span><img src="./images/bluegithub.svg" alt='live'>
-                  <a href="https://github.com/felixDev22/Mobile-first-D3"></a></span>
+                  <a href="${portfolioData[7].sourceLink}" target="_blank">See Source</a>
+                  <span><img src="${portfolioData[7].sourceIcon}" alt='gitHub'>
                   </button>
                   </div>
                 </div>
