@@ -390,20 +390,14 @@ closeModal.addEventListener('click', closePopup);
 const form = document.getElementById('form');
 const email = document.getElementById('email');
 const error = document.querySelector('.error');
-const validator = /^([a-z0-9.-]+)+@([a-z0-9-]+).([a-z]{2,8})(.[a-z]{2,8})?$/;
 
-function validate(userEmail) {
-  if (userEmail.match(validator)) {
-    return true;
-  }
-  return false;
-}
 form.addEventListener('submit', (e) => {
-  if (valid) {
-    e.preventDefault();
-    error.innerText = 'Please enter email in lowercase!';
-  } else {
-    error.innerText = '';
+  const emailData = email.value;
+
+  for (let i = 0; i < emailData.length; i += 1) {
+    if (emailData[i] !== emailData[i].toLowerCase()) {
+      e.preventDefault();
+      error.innerText = 'Please enter email in lowercase!';
+    }
   }
 });
-const valid = validate(email.value);
