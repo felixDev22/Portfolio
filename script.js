@@ -388,7 +388,7 @@ closeModal.addEventListener('click', closePopup);
 // --------- implement the validation form ---------------
 
 const form = document.getElementById('form');
-const emailData = document.getElementById('email');
+const email = document.getElementById('email');
 const error = document.querySelector('.error');
 
 form.addEventListener('submit', (e) => {
