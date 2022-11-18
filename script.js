@@ -391,10 +391,6 @@ const form = document.getElementById('form');
 const email = document.getElementById('email');
 const error = document.querySelector('.error');
 
-console.log(error);
-console.log(form);
-console.log(email);
-
 function validate(userEmail) {
   if (
     userEmail.match(/^([a-z0-9.-]+)+@([a-z0-9-]+).([a-z]{2,8})(.[a-z]{2,8})?$/)
