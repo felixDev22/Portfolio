@@ -23,8 +23,60 @@ const portfolioData = [
       'A daily selection of privately personalized reads; no accounts or sign-ups required.',
     details:
       "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the releaLorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the releorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum han printer took a galley of type and scrambled it 1960s with the releawn printer took a galley of type and scrambled it 1960s with the releaLorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the relea",
+    details2:
+      "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essent",
+
     workTools: ['html', 'css', 'javaScript', 'github', 'Ruby', 'Bootstrap'],
   },
+
+  {
+    title: 'Tonic',
+    workDetails: ['CANOPY', 'Back End Dev', '2015'],
+    image: './images/Portfolio 1.png',
+    image2: './images/dsk Portfolio1.png',
+    description:
+      'A daily selection of privately personalized reads; no accounts or sign-ups required.',
+    details:
+      "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the releaLorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the releorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum han printer took a galley of type and scrambled it 1960s with the releawn printer took a galley of type and scrambled it 1960s with the releaLorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the relea",
+    workTools: ['html', 'css', 'javaScript', 'github', 'Ruby', 'Bootstrap'],
+  },
+
+  {
+    title: 'Multi-Post<br /> Stories',
+    workDetails: ['CANOPY', 'Back End Dev', '2015'],
+    image: './images/Portfolio 2.png',
+    image2: './images/dsk Portfolio2.png',
+    description:
+      'A daily selection of privately personalized reads; no accounts or sign-ups required.',
+    details:
+      "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the releaLorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the releorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum han printer took a galley of type and scrambled it 1960s with the releawn printer took a galley of type and scrambled it 1960s with the releaLorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the relea",
+    workTools: ['html', 'css', 'javaScript', 'github', 'Ruby', 'Bootstrap'],
+  },
+
+  {
+    title: 'Multi-Post<br /> Stories',
+    workDetails: ['CANOPY', 'Back End Dev', '2015'],
+    image: './images/Portfolio 3.png',
+    image2: './images/dsk Portfolio3.png',
+    description:
+      'A daily selection of privately personalized reads; no accounts or sign-ups required.',
+    details:
+      "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the releaLorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the releorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum han printer took a galley of type and scrambled it 1960s with the releawn printer took a galley of type and scrambled it 1960s with the releaLorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the relea",
+    workTools: ['html', 'css', 'javaScript', 'github', 'Ruby', 'Bootstrap'],
+  },
+
+  {
+    title: 'Multi-Post<br /> Stories',
+    workDetails: ['CANOPY', 'Back End Dev', '2015'],
+    image: './images/Portfolio 4.png',
+    image2: '../images/dsk Portfolio.png',
+    description:
+      'A daily selection of privately personalized reads; no accounts or sign-ups required.',
+    details:
+      "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the releaLorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the releorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum han printer took a galley of type and scrambled it 1960s with the releawn printer took a galley of type and scrambled it 1960s with the releaLorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the relea",
+    workTools: ['html', 'css', 'javaScript', 'github', 'Ruby', 'Bootstrap'],
+  },
+
   {
     title: 'Multi-Post Stories',
     workDetails: ['FACEBOOK', 'Back End Dev', '2015'],
@@ -53,11 +105,193 @@ const portfolioData = [
       'A daily selection of privately personalized reads; no accounts or sign-ups required.',
     details:
       "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the releaLorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the releorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum han printer took a galley of type and scrambled it 1960s with the releawn printer took a galley of type and scrambled it 1960s with the releaLorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the relea",
+    details2:
+      "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essent",
+
     workTools: ['html', 'css', 'javaScript', 'github', 'Ruby', 'Bootstrap'],
+
+    liveLinkIcon: './images/live-Icon.svg',
     liveLink: 'https://felixdev22.github.io/Mobile-first-D3/',
-    source: 'https://felixdev22.github.io/Mobile-first-D3/',
+
+    sourceLink: 'https://felixdev22.github.io/Mobile-first-D3/',
+    sourceIcon: './images/bluegithub.svg',
   },
 ];
+
+// ------------------------- Projects section --------------------//
+
+const project = document.querySelector('.grid-container');
+project.innerHTML = `<div class="card">
+              <div class="row">
+                <div class="col-1 work-1">
+                <a href="#"
+                  ><img src="${portfolioData[1].image}" class="mobile-only" alt="portfolio-1"
+                /></a>
+  
+                   <a href="#"
+                  ><img src="${portfolioData[1].image2}" class="desktop-only" alt="portfolio-1"
+                /></a>
+                
+                </div>
+
+                <div class="col-2">
+                <a href="#"><h2>${portfolioData[0].title}</h2></a>
+                <div class="work-details flex2">
+                  <a href="#"><h3>${portfolioData[0].workDetails[0]}</h3></a>
+                  <div class="bullet-point"></div>
+                  <a href=""><h4>${portfolioData[0].workDetails[1]}</h4></a>
+                  <div class="bullet-point"></div>
+                  <a href=""><h4>${portfolioData[0].workDetails[2]}</h4></a>
+                </div>
+                <p>
+                  ${portfolioData[0].description}
+                </p>
+                <ul>
+                  <li class="work-tools">
+                    <button type="button" class="tools">${portfolioData[0].workTools[0]}</button>
+                    <button type="button" class="tools">${portfolioData[0].workTools[1]}</button>
+                    <button type="button" class="tools">${portfolioData[0].workTools[2]}</button>
+                  </li>
+                </ul>
+                <div>
+                  <button type="button" class="primary-btn">See Project</button>
+                </div>
+              </div>
+              </div>
+            </div>
+            
+            <!-- portfolio - 2 -->
+            <div class="card">
+              <div class="row reverse">
+                <div class="col-1">
+                <a href="#"
+                  ><img src="${portfolioData[2].image}" class="mobile-only" alt="portfolio-2"
+                /></a>
+
+                     <a href="#"
+                  ><img src="${portfolioData[2].image2}" class="desktop-only" alt="portfolio-2"
+                /></a>
+
+                </div>
+
+                <div class="col-2">
+                <a href="#"
+                  ><h2>${portfolioData[2].title}</h2></a>
+
+                  
+                <div class="work-details flex2">
+                  <a href="#"><h3>${portfolioData[0].workDetails[0]}</h3></a>
+                  <div class="bullet-point"></div>
+                  <a href=""><h4>${portfolioData[0].workDetails[1]}</h4></a>
+                  <div class="bullet-point"></div>
+                  <a href=""><h4>${portfolioData[0].workDetails[2]}</h4></a>
+                </div>
+                <p>
+                  ${portfolioData[0].description}
+                </p>
+                <ul>
+                  <li class="work-tools">
+                    <button type="button" class="tools">${portfolioData[0].workTools[0]}</button>
+                    <button type="button" class="tools">${portfolioData[0].workTools[1]}</button>
+                    <button type="button" class="tools">${portfolioData[0].workTools[2]}</button>
+                  </li>
+                </ul>
+                <div>
+                  <button type="button" class="primary-btn">See Project</button>
+                </div>
+              </div>
+              </div>
+                </div>
+
+
+                 <!-- portfolio - 3 -->
+            <div class="card selected-card">
+              <div class="row">
+                <div class="col-1">
+                <a href="#"
+                  ><img src="${portfolioData[3].image}" class="mobile-only" alt="portfolio-3"
+                /></a>
+
+                    <a href="#"
+                  ><img src="${portfolioData[3].image2}" class="desktop-only" alt="portfolio-3"
+                /></a>
+
+
+                </div>
+
+                <div class="col-2" >
+                <a href="#"><h2>${portfolioData[0].title}</h2></a>
+                <div class="work-details flex2">
+                  <a href="#"><h3>${portfolioData[0].workDetails[0]}</h3></a>
+                  <div class="bullet-point"></div>
+                  <a href=""><h4>${portfolioData[0].workDetails[1]}</h4></a>
+                  <div class="bullet-point"></div>
+                  <a href=""><h4>${portfolioData[0].workDetails[2]}</h4></a>
+                </div>
+                <p>
+                  ${portfolioData[0].description}
+                </p>
+                <ul>
+                  <li class="work-tools">
+                    <button type="button" class="tools">${portfolioData[0].workTools[0]}</button>
+                    <button type="button" class="tools">${portfolioData[0].workTools[1]}</button>
+                    <button type="button" class="tools">${portfolioData[0].workTools[2]}</button>
+                  </li>
+                </ul>
+                <div>
+                  <button type="button"class='primary-btn active'>See Project</button>
+                </div>
+              </div>
+              </div>
+            </div>
+
+            <!-- portfolio - 4 -->
+            <div class="card">
+              <div class="row reverse">
+                <div class="col-1">
+                <a href="#"
+                  ><img src="${portfolioData[4].image}" class="mobile-only" alt="portfolio-4"
+                /></a>
+
+                    <a href="#"
+                  ><img src="${portfolioData[4].image2}" class="desktop-only" alt="portfolio-4"
+                /></a>
+
+                </div>
+
+                <div class="col-2">
+                <a href="#"
+                  ><h2>${portfolioData[2].title}</h2></a>
+
+                  
+                <div class="work-details flex2">
+                  <a href="#"><h3>${portfolioData[0].workDetails[0]}</h3></a>
+                  <div class="bullet-point"></div>
+                  <a href=""><h4>${portfolioData[0].workDetails[1]}</h4></a>
+                  <div class="bullet-point"></div>
+                  <a href=""><h4>${portfolioData[0].workDetails[2]}</h4></a>
+                </div>
+
+                <p>
+                    ${portfolioData[0].description}
+                </p>
+                <ul>
+                  <li class="work-tools">
+                     <button type="button" class="tools">${portfolioData[0].workTools[0]}</button>
+                    <button type="button" class="tools">${portfolioData[0].workTools[1]}</button>
+                    <button type="button" class="tools">${portfolioData[0].workTools[2]}</button>
+                  </li>
+                </ul>
+                <div>
+                  <button type="button" class="primary-btn">See Project</button>
+                </div>
+              </div>
+              </div>
+                </div>`;
+
+// ------------------------- Projects section --------------------//
+
+// ------------------------- Pop-up section --------------------//
 
 const dynamic = document.querySelector('.popup');
 dynamic.innerHTML = `<div class="row">
@@ -71,7 +305,6 @@ dynamic.innerHTML = `<div class="row">
                   <a href=""><h4>${portfolioData[0].workDetails[2]}</h4></a>
                   
                 </div>
-
                 <div class='close'>
           <img src="./images/greyX.svg" alt="close" class='x-icon'
             id="close"/>
@@ -86,10 +319,8 @@ dynamic.innerHTML = `<div class="row">
                 /></a>
                 
                 </div>
-
                 <div class="left-col">
                 <div class="text-side">
-
                 <p class="desktop-only" >
                   ${portfolioData[0].details}
                 </p>
@@ -153,3 +384,5 @@ function closePopup() {
 }
 
 closeModal.addEventListener('click', closePopup);
+
+// ------------------------- Pop-up section --------------------//
