@@ -543,6 +543,12 @@ button:hover {
   margin-top: 1rem;
 }
 
+.error-msg {
+  font-size: 1.3rem;
+  font-weight: 500;
+  color: rgb(183, 18, 18);
+}
+
 /* ================================= media queries ================================= */
 
 /* Desktop version */
