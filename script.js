@@ -403,10 +403,10 @@ form.addEventListener('submit', (e) => {
 });
 
 // ------------------- Local-Storage ------------------
-const Form = document.getElementById("form");
-const Name = document.getElementById("name");
-const Email = document.getElementById("email");
-const Message = document.getElementById("message");
+const contactForm = document.getElementById('form');
+const Name = document.getElementById('name');
+const Email = document.getElementById('email');
+const Message = document.getElementById('message');
 
 contactForm.addEventListener('input', () => {
   const contactData = {
@@ -421,5 +421,3 @@ const GetDataFromLocalStorage = JSON.parse(localStorage.getItem('userData'));
 Name.value = GetDataFromLocalStorage.username;
 Email.value = GetDataFromLocalStorage.email;
 Message.value = GetDataFromLocalStorage.message;
-
-
