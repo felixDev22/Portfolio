@@ -403,3 +403,7 @@ form.addEventListener('submit', (e) => {
 });
 
 // ------------------- Local-Storage ------------------
+const Form = document.getElementById("form");
+const Name = document.getElementById("name");
+const Email = document.getElementById("email");
+const Message = document.getElementById("message");
