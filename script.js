@@ -69,7 +69,7 @@ const portfolioData = [
     title: 'Multi-Post<br /> Stories',
     workDetails: ['CANOPY', 'Back End Dev', '2015'],
     image: './images/Portfolio 4.png',
-    image2: '../images/dsk Portfolio.png',
+    image2: './images/dsk Portfolio.png',
     description:
       'A daily selection of privately personalized reads; no accounts or sign-ups required.',
     details:
@@ -101,6 +101,7 @@ const portfolioData = [
     title: 'Uber Navigation',
     workDetails: ['FACEBOOK', 'Back End Dev', '2015'],
     image: './images/Portfolio 4.png',
+    image2: './images/dsk Portfolio.png',
     description:
       'A daily selection of privately personalized reads; no accounts or sign-ups required.',
     details:
