@@ -320,7 +320,7 @@ ul li {
 
 .card {
   width: 327px;
-  height: 568px;
+  height: auto;
   background: var(--card-color);
   border: 1px solid var(--card-border);
   border-radius: 16px;
