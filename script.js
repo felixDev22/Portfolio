@@ -1,3 +1,5 @@
+/* eslint-disable max-len */
+
 const mobileMenu = document.getElementById('mobile-menu');
 const closeBtn = document.getElementById('closeMenu');
 const menu = document.getElementById('menu');

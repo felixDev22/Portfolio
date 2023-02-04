@@ -1,8 +1,9 @@
 {
   "devDependencies": {
-    "eslint": "^8.28.0",
-    "eslint-config-airbnb-base": "^15.0.0",
-    "eslint-plugin-import": "^2.26.0",
+    "babel-eslint": "^10.1.0",
+    "eslint": "^7.32.0",
+    "eslint-config-airbnb-base": "^14.2.1",
+    "eslint-plugin-import": "^2.27.5",
     "eslint-plugin-react": "^7.31.11",
     "hint": "^2.0.0",
     "prettier": "^2.7.1",
