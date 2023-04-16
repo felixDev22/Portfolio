@@ -152,7 +152,7 @@ project.innerHTML = `<div class="card">
                   <a href=""><h4>${portfolioData[0].workDetails[2]}</h4></a>
                 </div>
                 <p>
-                  ${portfolioData[1].description}
+                  ${portfolioData[0].description}
                 </p>
                 <ul>
                   <li class="work-tools">
@@ -197,7 +197,7 @@ project.innerHTML = `<div class="card">
                   <a href=""><h4>${portfolioData[0].workDetails[2]}</h4></a>
                 </div>
                 <p>
-                  ${portfolioData[0].description}
+                  ${portfolioData[1].description}
                 </p>
                 <ul>
                   <li class="work-tools">
