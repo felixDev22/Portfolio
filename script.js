@@ -34,16 +34,16 @@ const portfolioData = [
   },
 
   {
-    title: 'BookStore',
-    workDetails: ['Front-end', 'Back-end Dev', '2023'],
+    title: 'STTA Kenya',
+    workDetails: ['Front-end', 'Back-end Dev', '2021'],
     image: './images/port03m.png',
     image2: './images/port03.png',
     description:
-      'Book Store is a (SPA) single-page application. That gets a book list from an API. It allows the user to add a book (title, author, and category). It also allows the user to delete a book from the book list.',
+      'STTA is a website with integrated social media, automated real-time news posts, and interactive pages. STTA Kenya, is a consulting company that supports sustainable tourism destinations and businesses.',
     details:
       "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the releaLorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the releorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum han printer took a galley of type and scrambled it 1960s with the releawn printer took a galley of type and scrambled it 1960s with the releaLorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the relea",
-    workTools: ['React', 'Redux', 'html', 'css', 'javaScript', 'github'],
-    liveLink: 'https://bookstore-app-f7ed66.netlify.app/',
+    workTools: ['wordpress'],
+    liveLink: 'https://sttakenya.org/',
   },
 
   {
@@ -202,10 +202,7 @@ project.innerHTML = `<div class="card">
                 <ul>
                   <li class="work-tools">
                     <button type="button" class="tools">${portfolioData[1].workTools[0]}</button>
-                    <button type="button" class="tools">${portfolioData[1].workTools[1]}</button>
-                    <button type="button" class="tools">${portfolioData[1].workTools[2]}</button>
-                    <button type="button" class="tools">${portfolioData[1].workTools[3]}</button>
-                      <button type="button" class="tools">${portfolioData[1].workTools[4]}</button>
+  
                   </li>
                 </ul>
                 <div>
